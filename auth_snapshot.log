@@ -1,0 +1,1480 @@
+2026-07-19T01:30:50.780518+00:00 ubuntu-target passwd[1401]: password for 'codemane1' changed by 'root'
+2026-07-19T01:30:50.782222+00:00 ubuntu-target systemd-logind[1442]: New seat seat0.
+2026-07-19T01:30:50.782232+00:00 ubuntu-target systemd-logind[1442]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-19T01:30:51.773755+00:00 ubuntu-target sshd[1729]: Server listening on 0.0.0.0 port 22.
+2026-07-19T01:30:51.773801+00:00 ubuntu-target sshd[1729]: Server listening on :: port 22.
+2026-07-19T01:31:35.649864+00:00 ubuntu-target systemd-logind[1442]: The system will power off now!
+2026-07-19T01:31:35.659943+00:00 ubuntu-target systemd-logind[1442]: System is powering down.
+2026-07-19T01:37:30.266905+00:00 ubuntu-target systemd-logind[1389]: New seat seat0.
+2026-07-19T01:37:30.266908+00:00 ubuntu-target systemd-logind[1389]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-19T01:38:43.273039+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T01:38:43.281750+00:00 ubuntu-target systemd-logind[1389]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T01:38:43.305251+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T01:38:43.306426+00:00 ubuntu-target systemd-logind[1389]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-19T02:07:25.517483+00:00 ubuntu-target sshd[2067]: Server listening on 0.0.0.0 port 22.
+2026-07-19T02:07:25.517632+00:00 ubuntu-target sshd[2067]: Server listening on :: port 22.
+2026-07-19T02:09:28.139996+00:00 ubuntu-target sshd[2067]: Timeout before authentication for connection from 192.168.81.128 to 192.168.81.130, pid = 2070
+2026-07-19T02:12:06.523145+00:00 ubuntu-target systemd-logind[1389]: The system will power off now!
+2026-07-19T02:12:06.538276+00:00 ubuntu-target systemd-logind[1389]: System is powering down.
+2026-07-19T02:12:06.581043+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-19T13:46:14.526777+00:00 ubuntu-target systemd-logind[1575]: New seat seat0.
+2026-07-19T13:46:14.537706+00:00 ubuntu-target systemd-logind[1575]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-19T13:49:18.016100+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T13:49:18.023498+00:00 ubuntu-target systemd-logind[1575]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T13:49:18.047022+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T13:49:18.047701+00:00 ubuntu-target systemd-logind[1575]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-19T13:55:53.721485+00:00 ubuntu-target systemd-logind[1575]: The system will reboot now!
+2026-07-19T13:55:53.735755+00:00 ubuntu-target systemd-logind[1575]: System is rebooting.
+2026-07-19T13:55:53.745605+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-19T13:56:04.229580+00:00 ubuntu-target systemd-logind[1397]: New seat seat0.
+2026-07-19T13:56:04.229585+00:00 ubuntu-target systemd-logind[1397]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-19T14:02:35.672109+00:00 ubuntu-target agetty[1457]: tty1: invalid character 0x1a in login name
+2026-07-19T14:03:51.270342+00:00 ubuntu-target login: pam_unix(login:auth): check pass; user unknown
+2026-07-19T14:03:51.270973+00:00 ubuntu-target login: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+2026-07-19T14:03:54.311852+00:00 ubuntu-target login: FAILED LOGIN 1 FROM tty1 FOR codmane1, Authentication failure
+2026-07-19T14:04:18.637771+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T14:04:18.645297+00:00 ubuntu-target systemd-logind[1397]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T14:04:18.666915+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T14:04:18.668241+00:00 ubuntu-target systemd-logind[1397]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-19T14:06:17.209372+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T14:06:17.209719+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/apt update
+2026-07-19T14:06:18.791392+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T14:06:18.794950+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T14:06:18.795027+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/apt install -y wireshark tcpdump
+2026-07-19T14:06:54.164675+00:00 ubuntu-target groupadd[4851]: group added to /etc/group: name=wireshark, GID=107
+2026-07-19T14:06:54.165225+00:00 ubuntu-target groupadd[4851]: group added to /etc/gshadow: name=wireshark
+2026-07-19T14:06:54.165527+00:00 ubuntu-target groupadd[4851]: new group: name=wireshark, GID=107
+2026-07-19T14:07:00.930565+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T14:08:10.647808+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T14:08:10.648082+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/sbin/usermod -aG wireshark
+2026-07-19T14:08:10.664399+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T14:09:07.448246+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-19T14:09:07.470113+00:00 ubuntu-target systemd-logind[1397]: Session 1 logged out. Waiting for processes to exit.
+2026-07-19T14:09:07.471817+00:00 ubuntu-target systemd-logind[1397]: Removed session 1.
+2026-07-19T14:09:17.697704+00:00 ubuntu-target systemd-logind[1397]: Removed session 2.
+2026-07-19T14:09:22.763628+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T14:09:22.769500+00:00 ubuntu-target systemd-logind[1397]: New session '3' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T14:09:22.790710+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T14:09:22.791578+00:00 ubuntu-target systemd-logind[1397]: New session '4' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-19T14:12:35.398067+00:00 ubuntu-target systemd-logind[1397]: The system will reboot now!
+2026-07-19T14:12:35.408736+00:00 ubuntu-target systemd-logind[1397]: System is rebooting.
+2026-07-19T14:12:35.419113+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-19T14:12:45.155796+00:00 ubuntu-target systemd-logind[1404]: New seat seat0.
+2026-07-19T14:12:45.155805+00:00 ubuntu-target systemd-logind[1404]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-19T14:13:55.961577+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T14:13:55.969312+00:00 ubuntu-target systemd-logind[1404]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T14:13:55.990280+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T14:13:55.991572+00:00 ubuntu-target systemd-logind[1404]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-19T14:17:01.831707+00:00 ubuntu-target CRON[2018]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-19T14:17:01.836383+00:00 ubuntu-target CRON[2018]: pam_unix(cron:session): session closed for user root
+2026-07-19T14:22:42.386477+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T14:22:42.388263+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T14:25:08.175079+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T14:25:08.177431+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/apt install -y tshark
+2026-07-19T14:25:13.031773+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T14:28:57.435311+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T14:28:57.436262+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/tshark -i enp2s0 -w capture.pcap
+2026-07-19T14:28:57.575174+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T14:35:48.394114+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T14:35:48.395033+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/sbin/reboot 
+2026-07-19T14:35:48.403025+00:00 ubuntu-target systemd-logind[1404]: The system will reboot now!
+2026-07-19T14:35:48.405443+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T14:35:48.428288+00:00 ubuntu-target systemd-logind[1404]: System is rebooting.
+2026-07-19T14:35:48.441537+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-19T14:35:57.926882+00:00 ubuntu-target systemd-logind[1397]: New seat seat0.
+2026-07-19T14:35:57.926883+00:00 ubuntu-target systemd-logind[1397]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-19T14:36:13.032016+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T14:36:13.038958+00:00 ubuntu-target systemd-logind[1397]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T14:36:13.060932+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T14:36:13.062314+00:00 ubuntu-target systemd-logind[1397]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-19T14:37:19.982044+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T14:37:19.983902+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/sbin/dpkg-reconfigure wireshark-common
+2026-07-19T14:37:58.433635+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T14:39:45.713533+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T14:39:45.713778+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/sbin/dpkg-reconfigure wireshark-common
+2026-07-19T14:39:47.370050+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T14:40:47.933170+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T14:40:47.933540+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/sbin/usermod -aG wireshark
+2026-07-19T14:40:47.950880+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T14:42:50.027702+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T14:42:50.027974+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/sbin/reboot 
+2026-07-19T14:42:50.039099+00:00 ubuntu-target systemd-logind[1397]: The system will reboot now!
+2026-07-19T14:42:50.046008+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T14:42:50.065968+00:00 ubuntu-target systemd-logind[1397]: System is rebooting.
+2026-07-19T14:42:50.076393+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-19T14:43:00.702404+00:00 ubuntu-target systemd-logind[1391]: New seat seat0.
+2026-07-19T14:43:00.713308+00:00 ubuntu-target systemd-logind[1391]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-19T14:43:19.252090+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T14:43:19.261367+00:00 ubuntu-target systemd-logind[1391]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T14:43:19.286754+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T14:43:19.287458+00:00 ubuntu-target systemd-logind[1391]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-19T14:49:36.163277+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T14:49:36.163546+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/sbin/setcap cap_net_raw,cap_net_admin+eip /usr/bin/dumpcap
+2026-07-19T14:49:36.166990+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T14:55:27.113680+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T14:55:27.114524+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/sbin/usermod -aG wirshark
+2026-07-19T14:55:27.121886+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T14:55:59.633229+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T14:55:59.633497+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/sbin/usermod -aG wireshark
+2026-07-19T14:55:59.650500+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T14:59:04.823350+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T14:59:04.824264+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/sbin/reboot 
+2026-07-19T14:59:04.828967+00:00 ubuntu-target systemd-logind[1391]: The system will reboot now!
+2026-07-19T14:59:04.837098+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T14:59:04.856060+00:00 ubuntu-target systemd-logind[1391]: System is rebooting.
+2026-07-19T14:59:04.869282+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-19T14:59:15.014149+00:00 ubuntu-target systemd-logind[1395]: New seat seat0.
+2026-07-19T14:59:15.014152+00:00 ubuntu-target systemd-logind[1395]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-19T14:59:31.126683+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T14:59:31.133278+00:00 ubuntu-target systemd-logind[1395]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T14:59:31.153583+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T14:59:31.154879+00:00 ubuntu-target systemd-logind[1395]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-19T15:04:57.978848+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T15:04:57.980891+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/sbin/usermod -aG wireshark codemane1
+2026-07-19T15:04:57.990266+00:00 ubuntu-target usermod[1847]: add 'codemane1' to group 'wireshark'
+2026-07-19T15:04:57.990496+00:00 ubuntu-target usermod[1847]: add 'codemane1' to shadow group 'wireshark'
+2026-07-19T15:04:57.995110+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T15:05:51.265588+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T15:05:51.265873+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/sbin/reboot 
+2026-07-19T15:05:51.270833+00:00 ubuntu-target systemd-logind[1395]: The system will reboot now!
+2026-07-19T15:05:51.273087+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T15:05:51.295334+00:00 ubuntu-target systemd-logind[1395]: System is rebooting.
+2026-07-19T15:05:51.309778+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-19T15:06:01.042682+00:00 ubuntu-target systemd-logind[1394]: New seat seat0.
+2026-07-19T15:06:01.042869+00:00 ubuntu-target systemd-logind[1394]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-19T15:06:16.244769+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T15:06:16.250627+00:00 ubuntu-target systemd-logind[1394]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T15:06:16.278237+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T15:06:16.278868+00:00 ubuntu-target systemd-logind[1394]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-19T15:06:52.189586+00:00 ubuntu-target sshd[1811]: Server listening on 0.0.0.0 port 22.
+2026-07-19T15:06:52.189760+00:00 ubuntu-target sshd[1811]: Server listening on :: port 22.
+2026-07-19T15:08:55.071203+00:00 ubuntu-target sshd[1811]: Timeout before authentication for connection from 192.168.81.130 to 192.168.81.130, pid = 1814
+2026-07-19T15:17:01.737864+00:00 ubuntu-target CRON[1887]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-19T15:17:01.741621+00:00 ubuntu-target CRON[1887]: pam_unix(cron:session): session closed for user root
+2026-07-19T15:21:47.449135+00:00 ubuntu-target sshd-session[1916]: Connection closed by 192.168.81.128 port 34594
+2026-07-19T15:23:14.864057+00:00 ubuntu-target unix_chkpwd[1919]: password check failed for user (codemane1)
+2026-07-19T15:23:14.864816+00:00 ubuntu-target sshd-session[1917]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-19T15:23:16.707441+00:00 ubuntu-target sshd-session[1917]: Failed password for codemane1 from 192.168.81.128 port 47462 ssh2
+2026-07-19T15:23:23.878951+00:00 ubuntu-target unix_chkpwd[1920]: password check failed for user (codemane1)
+2026-07-19T15:23:25.673144+00:00 ubuntu-target sshd-session[1917]: Failed password for codemane1 from 192.168.81.128 port 47462 ssh2
+2026-07-19T15:23:32.730839+00:00 ubuntu-target unix_chkpwd[1922]: password check failed for user (codemane1)
+2026-07-19T15:23:34.640039+00:00 ubuntu-target sshd-session[1917]: Failed password for codemane1 from 192.168.81.128 port 47462 ssh2
+2026-07-19T15:23:34.972131+00:00 ubuntu-target sshd-session[1917]: Connection closed by authenticating user codemane1 192.168.81.128 port 47462 [preauth]
+2026-07-19T15:23:34.974230+00:00 ubuntu-target sshd-session[1917]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-19T15:39:33.015414+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T15:39:33.017890+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/dmesg 
+2026-07-19T15:39:33.032897+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T15:53:42.956791+00:00 ubuntu-target sshd-session[3950]: Accepted password for codemane1 from 192.168.81.1 port 49218 ssh2
+2026-07-19T15:53:42.959875+00:00 ubuntu-target sshd-session[3950]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T15:53:42.967232+00:00 ubuntu-target systemd-logind[1394]: New session '4' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T15:55:33.493496+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T15:55:33.495210+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/dmesg 
+2026-07-19T15:55:33.509449+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T16:03:19.330333+00:00 ubuntu-target passwd[4115]: pam_unix(passwd:chauthtok): password changed for codemane1
+2026-07-19T16:09:24.108350+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T16:09:24.111266+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/apt install -y apparmor-utils
+2026-07-19T16:10:15.048425+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T16:10:49.108181+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T16:10:49.108588+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T16:15:47.990631+00:00 ubuntu-target systemd-logind[1394]: The system will reboot now!
+2026-07-19T16:15:48.011131+00:00 ubuntu-target systemd-logind[1394]: System is rebooting.
+2026-07-19T16:15:48.020442+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-19T16:15:48.025074+00:00 ubuntu-target sshd-session[3950]: error: mm_reap: child terminated by signal 15
+2026-07-19T16:15:48.025436+00:00 ubuntu-target sshd-session[3950]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-19T16:15:58.161568+00:00 ubuntu-target systemd-logind[1398]: New seat seat0.
+2026-07-19T16:15:58.161569+00:00 ubuntu-target systemd-logind[1398]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-19T16:16:14.494726+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T16:16:14.500669+00:00 ubuntu-target systemd-logind[1398]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T16:16:14.523629+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T16:16:14.524214+00:00 ubuntu-target systemd-logind[1398]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-19T16:17:00.693920+00:00 ubuntu-target CRON[2019]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-19T16:17:00.696718+00:00 ubuntu-target CRON[2019]: pam_unix(cron:session): session closed for user root
+2026-07-19T16:17:32.013869+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T16:17:32.014127+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/apt install -y apparmor-utils
+2026-07-19T16:17:37.626807+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T16:18:04.411176+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-19T16:18:04.411503+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/tty1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/sbin/aa-complain /usr/bin/tshark
+2026-07-19T16:18:04.711251+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-19T16:25:30.130146+00:00 ubuntu-target sshd[8768]: Server listening on 0.0.0.0 port 22.
+2026-07-19T16:25:30.130389+00:00 ubuntu-target sshd[8768]: Server listening on :: port 22.
+2026-07-19T16:25:35.857293+00:00 ubuntu-target sshd-session[8771]: Accepted password for codemane1 from 192.168.81.1 port 49232 ssh2
+2026-07-19T16:25:35.858381+00:00 ubuntu-target sshd-session[8771]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T16:25:35.862053+00:00 ubuntu-target systemd-logind[1398]: New session '4' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T17:15:27.691449+00:00 ubuntu-target sshd-session[8827]: Received disconnect from 192.168.81.1 port 49232:11: disconnected by user
+2026-07-19T17:15:27.695962+00:00 ubuntu-target sshd-session[8827]: Disconnected from user codemane1 192.168.81.1 port 49232
+2026-07-19T17:15:27.696515+00:00 ubuntu-target sshd-session[8771]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-19T17:15:27.696830+00:00 ubuntu-target sshd-session[8771]: syslogin_perform_logout: logout() returned an error
+2026-07-19T17:15:27.699926+00:00 ubuntu-target systemd-logind[1398]: Session 4 logged out. Waiting for processes to exit.
+2026-07-19T17:15:27.701029+00:00 ubuntu-target systemd-logind[1398]: Removed session 4.
+2026-07-19T17:17:01.782591+00:00 ubuntu-target CRON[8983]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-19T17:17:01.786257+00:00 ubuntu-target CRON[8983]: pam_unix(cron:session): session closed for user root
+2026-07-19T17:29:09.203063+00:00 ubuntu-target systemd-logind[1398]: The system will power off now!
+2026-07-19T17:29:09.214847+00:00 ubuntu-target systemd-logind[1398]: System is powering down.
+2026-07-19T17:29:09.225662+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-19T18:36:28.374526+00:00 ubuntu-target systemd-logind[1400]: New seat seat0.
+2026-07-19T18:36:28.374528+00:00 ubuntu-target systemd-logind[1400]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-19T18:36:54.649374+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T18:36:54.658760+00:00 ubuntu-target systemd-logind[1400]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T18:36:54.671601+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T18:36:54.672171+00:00 ubuntu-target systemd-logind[1400]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-19T18:48:02.617793+00:00 ubuntu-target systemd-logind[1400]: The system will reboot now!
+2026-07-19T18:48:02.633408+00:00 ubuntu-target systemd-logind[1400]: System is rebooting.
+2026-07-19T18:48:02.641248+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-19T18:48:13.178346+00:00 ubuntu-target systemd-logind[1398]: New seat seat0.
+2026-07-19T18:48:13.179013+00:00 ubuntu-target systemd-logind[1398]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-19T18:48:25.434447+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T18:48:25.441818+00:00 ubuntu-target systemd-logind[1398]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T18:48:25.456650+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T18:48:25.457431+00:00 ubuntu-target systemd-logind[1398]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-19T18:51:51.596360+00:00 ubuntu-target systemd-logind[1398]: The system will reboot now!
+2026-07-19T18:51:51.607944+00:00 ubuntu-target systemd-logind[1398]: System is rebooting.
+2026-07-19T18:51:51.619673+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-19T18:52:01.172708+00:00 ubuntu-target systemd-logind[1396]: New seat seat0.
+2026-07-19T18:52:01.172710+00:00 ubuntu-target systemd-logind[1396]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-19T18:52:20.783914+00:00 ubuntu-target systemd-logind[1396]: The system will reboot now!
+2026-07-19T18:52:20.796242+00:00 ubuntu-target systemd-logind[1396]: System is rebooting.
+2026-07-19T18:52:30.092347+00:00 ubuntu-target systemd-logind[1405]: New seat seat0.
+2026-07-19T18:52:30.092350+00:00 ubuntu-target systemd-logind[1405]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-19T18:52:42.403165+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T18:52:42.409033+00:00 ubuntu-target systemd-logind[1405]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T18:52:42.437635+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T18:52:42.437858+00:00 ubuntu-target systemd-logind[1405]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-19T18:55:05.162170+00:00 ubuntu-target sshd[1997]: Server listening on 0.0.0.0 port 22.
+2026-07-19T18:55:05.162282+00:00 ubuntu-target sshd[1997]: Server listening on :: port 22.
+2026-07-19T18:55:10.156660+00:00 ubuntu-target sshd-session[2000]: Accepted password for codemane1 from 192.168.81.1 port 49161 ssh2
+2026-07-19T18:55:10.157651+00:00 ubuntu-target sshd-session[2000]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T18:55:10.160707+00:00 ubuntu-target systemd-logind[1405]: New session '3' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T19:04:49.083357+00:00 ubuntu-target sshd-session[2171]: Connection closed by 192.168.81.128 port 42562
+2026-07-19T19:05:15.538414+00:00 ubuntu-target unix_chkpwd[2174]: password check failed for user (codemane1)
+2026-07-19T19:05:15.538818+00:00 ubuntu-target sshd-session[2172]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-19T19:05:17.458887+00:00 ubuntu-target sshd-session[2172]: Failed password for codemane1 from 192.168.81.128 port 42728 ssh2
+2026-07-19T19:05:21.918561+00:00 ubuntu-target unix_chkpwd[2175]: password check failed for user (codemane1)
+2026-07-19T19:05:23.585250+00:00 ubuntu-target sshd-session[2172]: Failed password for codemane1 from 192.168.81.128 port 42728 ssh2
+2026-07-19T19:05:28.841592+00:00 ubuntu-target unix_chkpwd[2176]: password check failed for user (codemane1)
+2026-07-19T19:05:30.521030+00:00 ubuntu-target sshd-session[2172]: Failed password for codemane1 from 192.168.81.128 port 42728 ssh2
+2026-07-19T19:05:31.043601+00:00 ubuntu-target sshd-session[2172]: Connection closed by authenticating user codemane1 192.168.81.128 port 42728 [preauth]
+2026-07-19T19:05:31.046489+00:00 ubuntu-target sshd-session[2172]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-19T19:17:01.717995+00:00 ubuntu-target CRON[2245]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-19T19:17:01.721838+00:00 ubuntu-target CRON[2245]: pam_unix(cron:session): session closed for user root
+2026-07-19T19:23:27.607492+00:00 ubuntu-target sshd-session[2303]: Accepted password for codemane1 from 192.168.81.1 port 49172 ssh2
+2026-07-19T19:23:27.609509+00:00 ubuntu-target sshd-session[2303]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T19:23:27.611838+00:00 ubuntu-target systemd-logind[1405]: New session '5' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T19:54:05.807728+00:00 ubuntu-target sshd-session[2516]: Accepted password for codemane1 from 192.168.81.1 port 49177 ssh2
+2026-07-19T19:54:05.808761+00:00 ubuntu-target sshd-session[2516]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T19:54:05.811286+00:00 ubuntu-target systemd-logind[1405]: New session '6' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T19:54:06.020724+00:00 ubuntu-target sshd-session[2615]: Received disconnect from 192.168.81.1 port 49177:11: disconnected by user
+2026-07-19T19:54:06.021429+00:00 ubuntu-target sshd-session[2615]: Disconnected from user codemane1 192.168.81.1 port 49177
+2026-07-19T19:54:06.021458+00:00 ubuntu-target sshd-session[2516]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-19T19:54:06.022449+00:00 ubuntu-target systemd-logind[1405]: Session 6 logged out. Waiting for processes to exit.
+2026-07-19T19:54:06.022826+00:00 ubuntu-target systemd-logind[1405]: Removed session 6.
+2026-07-19T19:54:35.672658+00:00 ubuntu-target sshd-session[2618]: Accepted password for codemane1 from 192.168.81.1 port 49178 ssh2
+2026-07-19T19:54:35.673723+00:00 ubuntu-target sshd-session[2618]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T19:54:35.677224+00:00 ubuntu-target systemd-logind[1405]: New session '7' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T19:54:35.736337+00:00 ubuntu-target sshd-session[2666]: Received disconnect from 192.168.81.1 port 49178:11: disconnected by user
+2026-07-19T19:54:35.736493+00:00 ubuntu-target sshd-session[2666]: Disconnected from user codemane1 192.168.81.1 port 49178
+2026-07-19T19:54:35.736529+00:00 ubuntu-target sshd-session[2618]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-19T19:54:35.738112+00:00 ubuntu-target systemd-logind[1405]: Session 7 logged out. Waiting for processes to exit.
+2026-07-19T19:54:35.738689+00:00 ubuntu-target systemd-logind[1405]: Removed session 7.
+2026-07-19T19:54:41.248009+00:00 ubuntu-target sshd-session[2669]: Accepted password for codemane1 from 192.168.81.1 port 49179 ssh2
+2026-07-19T19:54:41.248868+00:00 ubuntu-target sshd-session[2669]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T19:54:41.252253+00:00 ubuntu-target systemd-logind[1405]: New session '8' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T19:54:41.306186+00:00 ubuntu-target sshd-session[2717]: Received disconnect from 192.168.81.1 port 49179:11: disconnected by user
+2026-07-19T19:54:41.306282+00:00 ubuntu-target sshd-session[2717]: Disconnected from user codemane1 192.168.81.1 port 49179
+2026-07-19T19:54:41.306450+00:00 ubuntu-target sshd-session[2669]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-19T19:54:41.308182+00:00 ubuntu-target systemd-logind[1405]: Session 8 logged out. Waiting for processes to exit.
+2026-07-19T19:54:41.308620+00:00 ubuntu-target systemd-logind[1405]: Removed session 8.
+2026-07-19T19:54:46.544149+00:00 ubuntu-target sshd-session[2720]: Accepted password for codemane1 from 192.168.81.1 port 49180 ssh2
+2026-07-19T19:54:46.545620+00:00 ubuntu-target sshd-session[2720]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T19:54:46.548066+00:00 ubuntu-target systemd-logind[1405]: New session '9' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T19:54:46.604922+00:00 ubuntu-target sshd-session[2768]: Received disconnect from 192.168.81.1 port 49180:11: disconnected by user
+2026-07-19T19:54:46.605029+00:00 ubuntu-target sshd-session[2768]: Disconnected from user codemane1 192.168.81.1 port 49180
+2026-07-19T19:54:46.605049+00:00 ubuntu-target sshd-session[2720]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-19T19:54:46.606457+00:00 ubuntu-target systemd-logind[1405]: Session 9 logged out. Waiting for processes to exit.
+2026-07-19T19:54:46.607007+00:00 ubuntu-target systemd-logind[1405]: Removed session 9.
+2026-07-19T19:54:52.336079+00:00 ubuntu-target sshd-session[2771]: Accepted password for codemane1 from 192.168.81.1 port 49181 ssh2
+2026-07-19T19:54:52.337240+00:00 ubuntu-target sshd-session[2771]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T19:54:52.340178+00:00 ubuntu-target systemd-logind[1405]: New session '10' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T19:54:52.400295+00:00 ubuntu-target sshd-session[2819]: Received disconnect from 192.168.81.1 port 49181:11: disconnected by user
+2026-07-19T19:54:52.400492+00:00 ubuntu-target sshd-session[2819]: Disconnected from user codemane1 192.168.81.1 port 49181
+2026-07-19T19:54:52.400688+00:00 ubuntu-target sshd-session[2771]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-19T19:54:52.402456+00:00 ubuntu-target systemd-logind[1405]: Session 10 logged out. Waiting for processes to exit.
+2026-07-19T19:54:52.402869+00:00 ubuntu-target systemd-logind[1405]: Removed session 10.
+2026-07-19T19:55:00.762810+00:00 ubuntu-target sshd-session[2822]: Accepted password for codemane1 from 192.168.81.1 port 49182 ssh2
+2026-07-19T19:55:00.764005+00:00 ubuntu-target sshd-session[2822]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T19:55:00.767371+00:00 ubuntu-target systemd-logind[1405]: New session '11' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T19:55:00.826523+00:00 ubuntu-target sshd-session[2870]: Received disconnect from 192.168.81.1 port 49182:11: disconnected by user
+2026-07-19T19:55:00.826671+00:00 ubuntu-target sshd-session[2870]: Disconnected from user codemane1 192.168.81.1 port 49182
+2026-07-19T19:55:00.826837+00:00 ubuntu-target sshd-session[2822]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-19T19:55:00.828721+00:00 ubuntu-target systemd-logind[1405]: Session 11 logged out. Waiting for processes to exit.
+2026-07-19T19:55:00.829494+00:00 ubuntu-target systemd-logind[1405]: Removed session 11.
+2026-07-19T19:56:21.614753+00:00 ubuntu-target sshd-session[2057]: Received disconnect from 192.168.81.1 port 49161:11: disconnected by user
+2026-07-19T19:56:21.618502+00:00 ubuntu-target sshd-session[2057]: Disconnected from user codemane1 192.168.81.1 port 49161
+2026-07-19T19:56:21.619054+00:00 ubuntu-target sshd-session[2000]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-19T19:56:21.619259+00:00 ubuntu-target sshd-session[2000]: syslogin_perform_logout: logout() returned an error
+2026-07-19T19:56:21.622467+00:00 ubuntu-target systemd-logind[1405]: Session 3 logged out. Waiting for processes to exit.
+2026-07-19T19:56:21.624919+00:00 ubuntu-target systemd-logind[1405]: Removed session 3.
+2026-07-19T19:56:44.859021+00:00 ubuntu-target sshd-session[2881]: Accepted password for codemane1 from 192.168.81.1 port 49184 ssh2
+2026-07-19T19:56:44.859943+00:00 ubuntu-target sshd-session[2881]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-19T19:56:44.863169+00:00 ubuntu-target systemd-logind[1405]: New session '12' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-19T20:17:01.793225+00:00 ubuntu-target CRON[3038]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-19T20:17:01.795868+00:00 ubuntu-target CRON[3038]: pam_unix(cron:session): session closed for user root
+2026-07-19T21:17:01.873607+00:00 ubuntu-target CRON[3123]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-19T21:17:01.877402+00:00 ubuntu-target CRON[3123]: pam_unix(cron:session): session closed for user root
+2026-07-19T21:47:54.390032+00:00 ubuntu-target systemd-logind[1405]: The system will power off now!
+2026-07-19T21:47:54.404553+00:00 ubuntu-target systemd-logind[1405]: System is powering down.
+2026-07-19T21:47:54.413555+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-19T21:47:54.418164+00:00 ubuntu-target sshd-session[2881]: error: mm_reap: child terminated by signal 15
+2026-07-19T21:47:54.418397+00:00 ubuntu-target sshd-session[2303]: error: mm_reap: child terminated by signal 15
+2026-07-19T21:47:54.418455+00:00 ubuntu-target sshd-session[2303]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-19T21:47:54.418714+00:00 ubuntu-target sshd-session[2881]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-22T17:01:35.438461+00:00 ubuntu-target systemd-logind[1401]: New seat seat0.
+2026-07-22T17:01:35.438462+00:00 ubuntu-target systemd-logind[1401]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-22T17:05:07.807354+00:00 ubuntu-target systemd-logind[1401]: The system will power off now!
+2026-07-22T17:05:07.817052+00:00 ubuntu-target systemd-logind[1401]: System is powering down.
+2026-07-22T17:07:35.271485+00:00 ubuntu-target systemd-logind[1379]: New seat seat0.
+2026-07-22T17:07:35.271487+00:00 ubuntu-target systemd-logind[1379]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-22T17:07:50.769794+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-22T17:07:50.778987+00:00 ubuntu-target systemd-logind[1379]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-22T17:07:50.804458+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-22T17:07:50.805168+00:00 ubuntu-target systemd-logind[1379]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-22T17:13:48.605514+00:00 ubuntu-target sshd[2013]: Server listening on 0.0.0.0 port 22.
+2026-07-22T17:13:48.605961+00:00 ubuntu-target sshd[2013]: Server listening on :: port 22.
+2026-07-22T17:13:53.986299+00:00 ubuntu-target sshd-session[2016]: Accepted password for codemane1 from 192.168.81.1 port 49244 ssh2
+2026-07-22T17:13:53.987617+00:00 ubuntu-target sshd-session[2016]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-22T17:13:53.991325+00:00 ubuntu-target systemd-logind[1379]: New session '3' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-22T17:17:01.940913+00:00 ubuntu-target CRON[2114]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-22T17:17:01.945220+00:00 ubuntu-target CRON[2114]: pam_unix(cron:session): session closed for user root
+2026-07-22T18:17:01.021057+00:00 ubuntu-target CRON[2515]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-22T18:17:01.024690+00:00 ubuntu-target CRON[2515]: pam_unix(cron:session): session closed for user root
+2026-07-22T19:17:01.110259+00:00 ubuntu-target CRON[2631]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-22T19:17:01.112503+00:00 ubuntu-target CRON[2631]: pam_unix(cron:session): session closed for user root
+2026-07-22T19:44:25.419378+00:00 ubuntu-target sshd-session[2016]: syslogin_perform_logout: logout() returned an error
+2026-07-22T19:44:25.420359+00:00 ubuntu-target sshd-session[2072]: Received disconnect from 192.168.81.1 port 49244:11: disconnected by user
+2026-07-22T19:44:25.423360+00:00 ubuntu-target sshd-session[2072]: Disconnected from user codemane1 192.168.81.1 port 49244
+2026-07-22T19:44:25.423947+00:00 ubuntu-target sshd-session[2016]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-22T19:44:25.429034+00:00 ubuntu-target systemd-logind[1379]: Session 3 logged out. Waiting for processes to exit.
+2026-07-22T19:44:25.430073+00:00 ubuntu-target systemd-logind[1379]: Removed session 3.
+2026-07-22T20:17:01.188540+00:00 ubuntu-target CRON[2729]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-22T20:17:01.192128+00:00 ubuntu-target CRON[2729]: pam_unix(cron:session): session closed for user root
+2026-07-22T20:20:31.781859+00:00 ubuntu-target systemd-logind[1379]: The system will power off now!
+2026-07-22T20:20:31.798532+00:00 ubuntu-target systemd-logind[1379]: System is powering down.
+2026-07-22T20:20:31.811484+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-23T21:27:15.877446+00:00 ubuntu-target systemd-logind[1572]: New seat seat0.
+2026-07-23T21:27:15.877448+00:00 ubuntu-target systemd-logind[1572]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-23T21:27:26.314416+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-23T21:27:26.325453+00:00 ubuntu-target systemd-logind[1572]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-23T21:27:26.349501+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-23T21:27:26.349704+00:00 ubuntu-target systemd-logind[1572]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-23T21:29:21.936333+00:00 ubuntu-target sshd[1988]: Server listening on 0.0.0.0 port 22.
+2026-07-23T21:29:21.936475+00:00 ubuntu-target sshd[1988]: Server listening on :: port 22.
+2026-07-23T21:29:31.046929+00:00 ubuntu-target sshd-session[1991]: Accepted password for codemane1 from 192.168.192.1 port 49880 ssh2
+2026-07-23T21:29:31.048207+00:00 ubuntu-target sshd-session[1991]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-23T21:29:31.051697+00:00 ubuntu-target systemd-logind[1572]: New session '3' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-23T21:30:52.981853+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:30:52.982117+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/bash ./wazuh-install.sh -a
+2026-07-23T21:30:59.461247+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:35:09.725513+00:00 ubuntu-target systemd-logind[1572]: The system will power off now!
+2026-07-23T21:35:09.740298+00:00 ubuntu-target systemd-logind[1572]: System is powering down.
+2026-07-23T21:35:09.749817+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-23T21:35:09.750196+00:00 ubuntu-target sshd-session[1991]: error: mm_reap: child terminated by signal 15
+2026-07-23T21:35:09.750316+00:00 ubuntu-target sshd-session[1991]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-23T21:36:11.237447+00:00 ubuntu-target systemd-logind[1388]: New seat seat0.
+2026-07-23T21:36:11.237449+00:00 ubuntu-target systemd-logind[1388]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-23T21:36:20.664076+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-23T21:36:20.670624+00:00 ubuntu-target systemd-logind[1388]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-23T21:36:20.690179+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-23T21:36:20.690725+00:00 ubuntu-target systemd-logind[1388]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-23T21:36:59.878686+00:00 ubuntu-target sshd[1982]: Server listening on 0.0.0.0 port 22.
+2026-07-23T21:36:59.878927+00:00 ubuntu-target sshd[1982]: Server listening on :: port 22.
+2026-07-23T21:37:05.275075+00:00 ubuntu-target sshd-session[1985]: Accepted password for codemane1 from 192.168.192.1 port 49890 ssh2
+2026-07-23T21:37:05.276385+00:00 ubuntu-target sshd-session[1985]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-23T21:37:05.280252+00:00 ubuntu-target systemd-logind[1388]: New session '3' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-23T21:37:35.911815+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:37:35.913236+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/bash ./wazuh-install.sh -a
+2026-07-23T21:38:23.196930+00:00 ubuntu-target groupadd[17266]: group added to /etc/group: name=wazuh-indexer, GID=984
+2026-07-23T21:38:23.197461+00:00 ubuntu-target groupadd[17266]: group added to /etc/gshadow: name=wazuh-indexer
+2026-07-23T21:38:23.197754+00:00 ubuntu-target groupadd[17266]: new group: name=wazuh-indexer, GID=984
+2026-07-23T21:38:23.204059+00:00 ubuntu-target useradd[17271]: new user: name=wazuh-indexer, UID=999, GID=984, home=/home/wazuh-indexer, shell=/sbin/nologin, from=/dev/pts/2
+2026-07-23T21:39:06.749639+00:00 ubuntu-target groupadd[24644]: group added to /etc/group: name=wazuh, GID=108
+2026-07-23T21:39:06.750322+00:00 ubuntu-target groupadd[24644]: group added to /etc/gshadow: name=wazuh
+2026-07-23T21:39:06.750569+00:00 ubuntu-target groupadd[24644]: new group: name=wazuh, GID=108
+2026-07-23T21:39:06.780518+00:00 ubuntu-target useradd[24654]: new user: name=wazuh, UID=104, GID=108, home=/var/ossec, shell=/sbin/nologin, from=/dev/pts/2
+2026-07-23T21:40:15.649575+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:41:04.798501+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:41:04.798749+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-manager
+2026-07-23T21:41:21.309408+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:41:21.326337+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:41:21.326514+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-indexer
+2026-07-23T21:41:21.337580+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:41:21.348604+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:41:21.348786+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-dashboard
+2026-07-23T21:41:21.355403+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:43:52.456879+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:43:52.457561+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-indexer
+2026-07-23T21:43:52.471066+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:43:52.484649+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:43:52.485032+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-dashboard
+2026-07-23T21:43:52.493093+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:45:24.469140+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:45:24.469686+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/grep -i error\\|fail /var/log/wazuh-install.log
+2026-07-23T21:45:24.474003+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:47:24.210259+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:47:24.212275+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/lsblk 
+2026-07-23T21:47:24.218474+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:48:24.960523+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:48:24.961040+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/sbin/lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
+2026-07-23T21:48:25.028293+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:48:41.059399+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:48:41.059726+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/sbin/resize2fs /dev/ubuntu-vg/ubuntu-lv
+2026-07-23T21:48:41.145532+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:50:16.712166+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:50:16.712546+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/bash ./wazuh-install.sh --wazuh-dashboard
+2026-07-23T21:50:16.758591+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:51:52.255355+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:51:52.255739+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/bash ./wazuh-install.sh -a -o
+2026-07-23T21:51:59.772591+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:52:12.155085+00:00 ubuntu-target sshd[1982]: Received signal 15; terminating.
+2026-07-23T21:52:12.182577+00:00 ubuntu-target sshd[96565]: Server listening on 0.0.0.0 port 22.
+2026-07-23T21:52:12.182670+00:00 ubuntu-target sshd[96565]: Server listening on :: port 22.
+2026-07-23T21:52:29.654123+00:00 ubuntu-target sshd[96565]: Received signal 15; terminating.
+2026-07-23T21:52:29.794523+00:00 ubuntu-target (systemd-stdio-bridge): pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-23T21:52:29.877916+00:00 ubuntu-target (sd-pam): pam_unix(login:session): session closed for user codemane1
+2026-07-23T21:52:54.304287+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:52:54.304524+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl stop wazuh-manager
+2026-07-23T21:52:54.308822+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:52:54.314812+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:52:54.315093+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl disable wazuh-manager
+2026-07-23T21:52:54.497943+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:53:05.049798+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:53:05.050031+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+2026-07-23T21:53:05.067886+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:53:19.842709+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:53:19.842988+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/apt purge -y wazuh-manager
+2026-07-23T21:53:21.599835+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:53:21.605100+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:53:21.605147+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/apt autoremove -y
+2026-07-23T21:53:22.043766+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:54:39.617138+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:54:39.617490+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/rm -f /var/lib/dpkg/info/wazuh-manager.prerm
+2026-07-23T21:54:39.619476+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:54:50.120344+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:54:50.120619+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/apt purge -y wazuh-manager
+2026-07-23T21:54:51.715581+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:54:51.721209+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:54:51.721303+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/apt autoremove -y
+2026-07-23T21:54:53.211921+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:55:45.660397+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:55:45.660981+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/rm -f /var/lib/dpkg/info/wazuh-manager.postrm
+2026-07-23T21:55:45.664929+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:55:54.640109+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:55:54.640440+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/apt purge -y wazuh-manager
+2026-07-23T21:55:56.115652+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:55:56.120677+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:55:56.120731+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/apt autoremove -y
+2026-07-23T21:55:56.569822+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:57:34.636134+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:57:34.638358+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/dpkg --purge wazuh-manager
+2026-07-23T21:57:34.706696+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:58:03.227378+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:58:03.227774+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+2026-07-23T21:58:03.247247+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:58:03.260195+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:58:03.260345+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/rm -rf /var/ossec
+2026-07-23T21:58:03.261989+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:58:03.271782+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:58:03.271901+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/bash ./wazuh-install.sh -a -o
+2026-07-23T21:58:08.464845+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:58:58.569037+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:58:58.569651+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/kill -9 80008 80047
+2026-07-23T21:58:58.576387+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:59:08.416217+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:59:08.416352+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+2026-07-23T21:59:08.426342+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T21:59:56.384074+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T21:59:56.388275+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/pkill -9 -f wazuh
+2026-07-23T22:00:08.107555+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T22:00:08.107839+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/bash ./wazuh-install.sh -a -o
+2026-07-23T22:01:54.973211+00:00 ubuntu-target groupadd[238852]: group added to /etc/group: name=wazuh-dashboard, GID=109
+2026-07-23T22:01:54.974145+00:00 ubuntu-target groupadd[238852]: group added to /etc/gshadow: name=wazuh-dashboard
+2026-07-23T22:01:54.975196+00:00 ubuntu-target groupadd[238852]: new group: name=wazuh-dashboard, GID=109
+2026-07-23T22:01:55.049333+00:00 ubuntu-target useradd[238861]: new user: name=wazuh-dashboard, UID=105, GID=109, home=/nonexistent, shell=/bin/false, from=/dev/pts/2
+2026-07-23T22:02:22.495822+00:00 ubuntu-target runuser: pam_unix(runuser:session): session opened for user wazuh-dashboard(uid=105) by codemane1(uid=0)
+2026-07-23T22:02:24.469413+00:00 ubuntu-target runuser: pam_unix(runuser:session): session closed for user wazuh-dashboard
+2026-07-23T22:02:24.471405+00:00 ubuntu-target runuser: pam_unix(runuser:session): session opened for user wazuh-dashboard(uid=105) by codemane1(uid=0)
+2026-07-23T22:02:24.909733+00:00 ubuntu-target runuser: pam_unix(runuser:session): session closed for user wazuh-dashboard
+2026-07-23T22:02:24.912507+00:00 ubuntu-target runuser: pam_unix(runuser:session): session opened for user wazuh-dashboard(uid=105) by codemane1(uid=0)
+2026-07-23T22:02:25.259160+00:00 ubuntu-target runuser: pam_unix(runuser:session): session closed for user wazuh-dashboard
+2026-07-23T22:07:03.586434+00:00 ubuntu-target sshd[247756]: Server listening on 0.0.0.0 port 22.
+2026-07-23T22:07:03.586813+00:00 ubuntu-target sshd[247756]: Server listening on :: port 22.
+2026-07-23T22:07:03.664809+00:00 ubuntu-target sshd-session[247759]: Invalid user codeman1 from 192.168.192.1 port 49966
+2026-07-23T22:07:08.902099+00:00 ubuntu-target sshd-session[247759]: pam_unix(sshd:auth): check pass; user unknown
+2026-07-23T22:07:08.902146+00:00 ubuntu-target sshd-session[247759]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.192.1 
+2026-07-23T22:07:10.612250+00:00 ubuntu-target sshd-session[247759]: Failed password for invalid user codeman1 from 192.168.192.1 port 49966 ssh2
+2026-07-23T22:07:20.004822+00:00 ubuntu-target sshd-session[247759]: pam_unix(sshd:auth): check pass; user unknown
+2026-07-23T22:07:21.888341+00:00 ubuntu-target sshd-session[247759]: Failed password for invalid user codeman1 from 192.168.192.1 port 49966 ssh2
+2026-07-23T22:09:01.779688+00:00 ubuntu-target sshd-session[247759]: Connection closed2026-07-23T22:15:11.511445+00:00 ubuntu-target userdel[251724]: delete user 'wazuh-dashboard'
+2026-07-23T22:15:11.511686+00:00 ubuntu-target userdel[251724]: removed group 'wazuh-dashboard' owned by 'wazuh-dashboard'
+2026-07-23T22:15:11.511729+00:00 ubuntu-target userdel[251724]: removed shadow group 'wazuh-dashboard' owned by 'wazuh-dashboard'
+2026-07-23T22:15:12.834353+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T22:16:08.874253+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T22:17:01.217478+00:00 ubuntu-target CRON[251885]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-23T22:17:01.221120+00:00 ubuntu-target CRON[251885]: pam_unix(cron:session): session closed for user root
+2026-07-23T22:17:17.881582+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T22:17:17.881781+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl stop wazuh-manager wazuh-indexer wazuh-dashboard filebeat
+2026-07-23T22:17:17.902927+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T22:17:57.570200+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T22:17:57.573603+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl stop wazuh-manager filebeat
+2026-07-23T22:17:57.587240+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T22:17:57.601480+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T22:17:57.601761+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/rm -f /var/lib/dpkg/info/wazuh-manager.prerm
+2026-07-23T22:17:57.604331+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T22:17:57.616670+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T22:17:57.616855+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/rm -f /var/lib/dpkg/info/wazuh-manager.postrm
+2026-07-23T22:17:57.617981+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T22:17:57.626642+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T22:17:57.626799+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/dpkg --purge wazuh-manager
+2026-07-23T22:17:57.742693+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T22:18:23.991972+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T22:18:23.992275+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/rm -rf /var/ossec /etc/filebeat /etc/wazuh-indexer /etc/wazuh-dashboard /var/lib/wazuh-indexer /usr/share/wazuh-indexer /usr/share/wazuh-dashboard
+2026-07-23T22:18:23.994748+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T22:18:34.410518+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T22:18:34.411124+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+2026-07-23T22:18:34.432996+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T22:19:25.656858+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T22:19:25.657478+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/kill -9 230354 230394
+2026-07-23T22:19:25.663982+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T22:19:46.272604+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T22:19:46.272769+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/pkill -9 -f wazuh
+2026-07-23T22:19:58.548768+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T22:19:58.549616+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+2026-07-23T22:19:58.563770+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T22:21:00.195483+00:00 ubuntu-target sshd-session[248968]: Received disconnect from 192.168.192.1 port 49968:11: disconnected by user
+2026-07-23T22:21:00.196397+00:00 ubuntu-target sshd-session[248968]: Disconnected from user codemane1 192.168.192.1 port 49968
+2026-07-23T22:21:00.197695+00:00 ubuntu-target sshd-session[248864]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-23T22:21:00.200045+00:00 ubuntu-target sshd-session[248864]: syslogin_perform_logout: logout() returned an error
+2026-07-23T22:21:00.203879+00:00 ubuntu-target systemd-logind[1388]: Session 5 logged out. Waiting for processes to exit.
+2026-07-23T22:21:00.206193+00:00 ubuntu-target systemd-logind[1388]: Removed session 5.
+2026-07-23T22:21:11.026521+00:00 ubuntu-target sshd-session[2032]: Received disconnect from 192.168.192.1 port 49890:11: disconnected by user
+2026-07-23T22:21:11.028431+00:00 ubuntu-target sshd-session[2032]: Disconnected from user codemane1 192.168.192.1 port 49890
+2026-07-23T22:21:11.028984+00:00 ubuntu-target sshd-session[1985]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-23T22:21:11.032678+00:00 ubuntu-target sshd-session[1985]: syslogin_perform_logout: logout() returned an error
+2026-07-23T22:21:11.036191+00:00 ubuntu-target systemd-logind[1388]: Session 3 logged out. Waiting for processes to exit.
+2026-07-23T22:24:58.587477+00:00 ubuntu-target sshd-session[252072]: Accepted password for codemane1 from 192.168.192.1 port 49974 ssh2
+2026-07-23T22:24:58.589688+00:00 ubuntu-target sshd-session[252072]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-23T22:24:58.591689+00:00 ubuntu-target systemd-logind[1388]: New session '7' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-23T22:26:49.310148+00:00 ubuntu-target sshd-session[252161]: Accepted password for codemane1 from 192.168.192.1 port 49980 ssh2
+2026-07-23T22:26:49.311399+00:00 ubuntu-target sshd-session[252161]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-23T22:26:49.315201+00:00 ubuntu-target systemd-logind[1388]: New session '8' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-23T22:27:02.280922+00:00 ubuntu-target sshd-session[252218]: Received disconnect from 192.168.192.1 port 49980:11: disconnected by user
+2026-07-23T22:27:02.285057+00:00 ubuntu-target sshd-session[252218]: Disconnected from user codemane1 192.168.192.1 port 49980
+2026-07-23T22:27:02.285536+00:00 ubuntu-target sshd-session[252161]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-23T22:27:02.288220+00:00 ubuntu-target sshd-session[252161]: syslogin_perform_logout: logout() returned an error
+2026-07-23T22:27:02.293436+00:00 ubuntu-target systemd-logind[1388]: Session 8 logged out. Waiting for processes to exit.
+2026-07-23T22:27:02.294649+00:00 ubuntu-target systemd-logind[1388]: Removed session 8.
+2026-07-23T22:27:06.111441+00:00 ubuntu-target sshd-session[252129]: Received disconnect from 192.168.192.1 port 49974:11: disconnected by user
+2026-07-23T22:27:06.113351+00:00 ubuntu-target sshd-session[252129]: Disconnected from user codemane1 192.168.192.1 port 49974
+2026-07-23T22:27:06.113783+00:00 ubuntu-target sshd-session[252072]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-23T22:27:06.114907+00:00 ubuntu-target sshd-session[252072]: syslogin_perform_logout: logout() returned an error
+2026-07-23T22:27:06.119651+00:00 ubuntu-target systemd-logind[1388]: Session 7 logged out. Waiting for processes to exit.
+2026-07-23T22:27:06.121638+00:00 ubuntu-target systemd-logind[1388]: Removed session 7.
+2026-07-23T22:27:53.375755+00:00 ubuntu-target sshd-session[252249]: Accepted password for codemane1 from 192.168.192.1 port 49981 ssh2
+2026-07-23T22:27:53.376896+00:00 ubuntu-target sshd-session[252249]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-23T22:27:53.380887+00:00 ubuntu-target systemd-logind[1388]: New session '9' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-23T22:28:00.900025+00:00 ubuntu-target sshd-session[252306]: Received disconnect from 192.168.192.1 port 49981:11: disconnected by user
+2026-07-23T22:28:00.900529+00:00 ubuntu-target sshd-session[252306]: Disconnected from user codemane1 192.168.192.1 port 49981
+2026-07-23T22:28:00.901246+00:00 ubuntu-target sshd-session[252249]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-23T22:28:00.902811+00:00 ubuntu-target sshd-session[252249]: syslogin_perform_logout: logout() returned an error
+2026-07-23T22:28:00.909514+00:00 ubuntu-target systemd-logind[1388]: Session 9 logged out. Waiting for processes to exit.
+2026-07-23T22:28:00.912099+00:00 ubuntu-target systemd-logind[1388]: Removed session 9.
+2026-07-23T22:28:51.336700+00:00 ubuntu-target systemd-logind[1388]: The system will reboot now!
+2026-07-23T22:28:51.354091+00:00 ubuntu-target systemd-logind[1388]: System is rebooting.
+2026-07-23T22:28:51.373424+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-23T22:29:01.186366+00:00 ubuntu-target systemd-logind[1384]: New seat seat0.
+2026-07-23T22:29:01.186368+00:00 ubuntu-target systemd-logind[1384]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-23T22:29:19.906685+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-23T22:29:19.914752+00:00 ubuntu-target systemd-logind[1384]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-23T22:29:19.934408+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-23T22:29:19.935110+00:00 ubuntu-target systemd-logind[1384]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-23T22:30:11.883697+00:00 ubuntu-target sshd[1986]: Server listening on 0.0.0.0 port 22.
+2026-07-23T22:30:11.884320+00:00 ubuntu-target sshd[1986]: Server listening on :: port 22.
+2026-07-23T22:30:17.429752+00:00 ubuntu-target sshd-session[1989]: Accepted password for codemane1 from 192.168.192.1 port 49984 ssh2
+2026-07-23T22:30:17.430773+00:00 ubuntu-target sshd-session[1989]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-23T22:30:17.434211+00:00 ubuntu-target systemd-logind[1384]: New session '3' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-23T22:30:42.513943+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T22:30:42.514141+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+2026-07-23T22:30:42.534150+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T22:31:36.720837+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T22:31:36.721182+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/bash ./wazuh-install.sh -a
+2026-07-23T22:33:13.905016+00:00 ubuntu-target groupadd[74395]: group added to /etc/group: name=wazuh-dashboard, GID=109
+2026-07-23T22:33:13.905556+00:00 ubuntu-target groupadd[74395]: group added to /etc/gshadow: name=wazuh-dashboard
+2026-07-23T22:33:13.905852+00:00 ubuntu-target groupadd[74395]: new group: name=wazuh-dashboard, GID=109
+2026-07-23T22:33:13.949772+00:00 ubuntu-target useradd[74406]: new user: name=wazuh-dashboard, UID=105, GID=109, home=/nonexistent, shell=/bin/false, from=/dev/pts/2
+2026-07-23T22:34:05.760531+00:00 ubuntu-target runuser: pam_unix(runuser:session): session opened for user wazuh-dashboard(uid=105) by codemane1(uid=0)
+2026-07-23T22:34:06.374980+00:00 ubuntu-target runuser: pam_unix(runuser:session): session closed for user wazuh-dashboard
+2026-07-23T22:34:06.378663+00:00 ubuntu-target runuser: pam_unix(runuser:session): session opened for user wazuh-dashboard(uid=105) by codemane1(uid=0)
+2026-07-23T22:34:06.876129+00:00 ubuntu-target runuser: pam_unix(runuser:session): session closed for user wazuh-dashboard
+2026-07-23T22:34:06.879317+00:00 ubuntu-target runuser: pam_unix(runuser:session): session opened for user wazuh-dashboard(uid=105) by codemane1(uid=0)
+2026-07-23T22:34:07.282180+00:00 ubuntu-target runuser: pam_unix(runuser:session): session closed for user wazuh-dashboard
+2026-07-23T22:34:55.492813+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T22:39:21.522591+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T22:39:21.524468+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-manager wazuh-indexer wazuh-dashboard filebeat
+2026-07-23T22:40:12.034208+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T22:40:17.861519+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T22:40:17.861807+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-indexer wazuh-dashboard filebeat
+2026-07-23T22:40:21.899377+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T22:41:24.011095+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-23T22:41:24.011599+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-dashboard filebeat
+2026-07-23T22:41:27.084705+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-23T22:46:09.777612+00:00 ubuntu-target systemd-logind[1384]: The system will reboot now!
+2026-07-23T22:46:09.822975+00:00 ubuntu-target systemd-logind[1384]: System is rebooting.
+2026-07-23T22:46:09.847277+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-23T22:46:09.847736+00:00 ubuntu-target sshd-session[1989]: error: mm_reap: child terminated by signal 15
+2026-07-23T22:46:09.847818+00:00 ubuntu-target sshd-session[1989]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-23T22:46:51.257715+00:00 ubuntu-target systemd-logind[1413]: New seat seat0.
+2026-07-23T22:46:51.257717+00:00 ubuntu-target systemd-logind[1413]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-23T22:47:06.298031+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-23T22:47:06.316422+00:00 ubuntu-target systemd-logind[1413]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-23T22:47:06.333795+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-23T22:47:06.334093+00:00 ubuntu-target systemd-logind[1413]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-23T22:56:59.461352+00:00 ubuntu-target systemd-logind[1413]: The system will power off now!
+2026-07-23T22:56:59.479713+00:00 ubuntu-target 2026-07-24T16:16:56.135909+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T16:17:01.833394+00:00 ubuntu-target CRON[2973]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-24T16:17:01.837460+00:00 ubuntu-target CRON[2973]: pam_unix(cron:session): session closed for user root
+2026-07-24T16:17:43.796733+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T16:17:43.796972+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl restart wazuh-indexer
+2026-07-24T16:17:50.759389+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T16:18:50.794706+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T16:18:50.797908+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-indexer
+2026-07-24T16:19:21.280647+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T16:31:16.285519+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T16:31:16.290385+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl restart wazuh-dashboard
+2026-07-24T16:31:16.639444+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T16:42:20.885521+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T16:42:20.887768+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/cat /usr/share/wazuh-dashboard/data/wazuh/config/wazuh.yml
+2026-07-24T16:42:20.890049+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T16:46:12.499891+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T16:46:12.504328+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/tar -xvf /home/codemane1/wazuh-install-files.tar -C /home/codemane1/
+2026-07-24T16:46:12.508220+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T16:47:32.071021+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T16:47:32.071324+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/cat /home/codemane1/wazuh-install-files/wazuh-passwords.txt
+2026-07-24T16:47:32.075151+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T16:49:31.044968+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T16:49:31.045382+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-manager
+2026-07-24T16:49:31.057162+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T16:50:21.303392+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T16:50:21.303778+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl start wazuh-manager
+2026-07-24T16:50:32.323489+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T16:50:49.099528+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T16:50:49.100020+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-manager
+2026-07-24T16:51:27.476573+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T16:51:32.291461+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T16:51:32.291652+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+2026-07-24T16:51:32.323699+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T17:17:01.901001+00:00 ubuntu-target CRON[6134]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-24T17:17:01.903390+00:00 ubuntu-target CRON[6134]: pam_unix(cron:session): session closed for user root
+2026-07-24T17:55:35.982191+00:00 ubuntu-target sshd-session[2594]: Received disconnect from 192.168.81.1 port 49165:11: disconnected by user
+2026-07-24T17:55:35.984678+00:00 ubuntu-target sshd-session[2594]: Disconnected from user codemane1 192.168.81.1 port 49165
+2026-07-24T17:55:35.985077+00:00 ubuntu-target sshd-session[2537]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-24T17:55:35.987229+00:00 ubuntu-target sshd-session[2537]: syslogin_perform_logout: logout() returned an error
+2026-07-24T17:55:35.991040+00:00 ubuntu-target systemd-logind[1384]: Session 3 logged out. Waiting for processes to exit.
+2026-07-24T17:55:35.993625+00:00 ubuntu-target systemd-logind[1384]: Removed session 3.
+2026-07-24T18:17:01.962593+00:00 ubuntu-target CRON[6500]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-24T18:17:01.966822+00:00 ubuntu-target CRON[6500]: pam_unix(cron:session): session closed for user root
+2026-07-24T18:36:33.078657+00:00 ubuntu-target sshd-session[6577]: Accepted password for codemane1 from 192.168.81.1 port 49323 ssh2
+2026-07-24T18:36:33.081045+00:00 ubuntu-target sshd-session[6577]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-24T18:36:33.084569+00:00 ubuntu-target systemd-logind[1384]: New session '7' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-24T18:36:50.425165+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T18:36:50.427412+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-manager wazuh-indexer wazuh-dashboard filebeat
+2026-07-24T18:37:42.500093+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T18:46:54.752685+00:00 ubuntu-target sshd-session[6847]: Accepted password for codemane1 from 192.168.192.1 port 49334 ssh2
+2026-07-24T18:46:54.753847+00:00 ubuntu-target sshd-session[6847]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-24T18:46:54.757691+00:00 ubuntu-target systemd-logind[1384]: New session '8' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-24T18:48:53.785682+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T18:48:53.787581+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/dpkg -i ./wazuh-agent.deb
+2026-07-24T18:48:53.809738+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T18:50:38.781075+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T18:50:38.781307+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/var/ossec/bin/agent_control -l
+2026-07-24T18:50:38.788855+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T18:51:03.093838+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T18:51:03.094461+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/grep -A2 auth.log /var/ossec/etc/ossec.conf
+2026-07-24T18:51:03.097092+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T18:52:52.319719+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T18:52:52.320512+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/var/ossec/bin/agent_control -l
+2026-07-24T18:52:52.325796+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T18:53:38.739362+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T18:53:38.739612+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/grep -A2 auth.log /var/ossec/etc/ossec.conf
+2026-07-24T18:53:38.739684+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T18:54:34.005306+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T18:54:34.005629+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/grep -B1 -A2 <localfile> /var/ossec/etc/ossec.conf
+2026-07-24T18:54:34.009096+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T18:55:41.655428+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T18:55:41.656550+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/tail -5 /var/log/auth.log
+2026-07-24T18:55:41.660266+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T18:56:14.810422+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T18:56:14.811187+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/nano /var/ossec/etc/ossec.conf
+2026-07-24T19:06:33.222049+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T19:06:46.901314+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T19:06:46.903074+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/sed -i /<location>\\/var\\/log\\/dpkg.log<\\/location>/,/<\\/localfile>/{/<\\/localfile>/a\\\n  <localfile>\\\n    <log_format>syslog<\\/log_format>\\\n    <location>\\/var\\/log\\/auth.log<\\/location>\\\n  <\\/localfile>\n} /var/ossec/etc/ossec.conf
+2026-07-24T19:06:46.905462+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T19:08:48.302739+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T19:08:48.305282+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/grep -B1 -A2 auth.log /var/ossec/etc/ossec.conf
+2026-07-24T19:08:48.305873+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T19:09:35.482267+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T19:09:35.484892+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/grep -B3 -A2 auth.log /var/ossec/etc/ossec.conf
+2026-07-24T19:09:35.485340+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T19:10:11.458851+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T19:10:11.459083+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T19:11:37.745749+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T19:11:37.749418+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl restart wazuh-manager
+2026-07-24T19:11:47.120829+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T19:11:47.128701+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T19:11:47.128819+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-manager
+2026-07-24T19:12:50.917840+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T19:12:57.638192+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T19:12:57.638588+00:00 ubuntu-target sudo: codemane1 :  PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/tee -a /var/ossec/etc/rules/local_rules.xml
+2026-07-24T19:12:57.644061+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T19:13:22.979134+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T19:13:22.979731+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/cat /var/ossec/etc/rules/local_rules.xml
+2026-07-24T19:13:22.984548+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T19:14:25.505402+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T19:14:25.506083+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl restart wazuh-manager
+2026-07-24T19:14:34.685403+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T19:14:34.700094+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T19:14:34.700357+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/1 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-manager
+2026-07-24T19:17:01.037784+00:00 ubuntu-target CRON[12194]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-24T19:17:01.042492+00:00 ubuntu-target CRON[12194]: pam_unix(cron:session): session closed for user root
+2026-07-24T19:31:52.739737+00:00 ubuntu-target sshd-session[12255]: Accepted password for codemane1 from 192.168.81.1 port 49383 ssh2
+2026-07-24T19:31:52.741145+00:00 ubuntu-target sshd-session[12255]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-24T19:31:52.746086+00:00 ubuntu-target systemd-logind[1384]: New session '10' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-24T19:34:27.488393+00:00 ubuntu-target sshd-session[12362]: Received disconnect from 192.168.81.128 port 41984:11: Bye Bye [preauth]
+2026-07-24T19:34:27.488753+00:00 ubuntu-target sshd-session[12362]: Disconnected from authenticating user codemane1 192.168.81.128 port 41984 [preauth]
+2026-07-24T19:34:27.762257+00:00 ubuntu-target sshd[2535]: drop connection #10 from [192.168.81.128]:42082 on [192.168.81.130]:22 Maxstartups
+2026-07-24T19:34:27.769984+00:00 ubuntu-target sshd[2535]: drop connection #12 from [192.168.81.128]:42108 on [192.168.81.130]:22 Maxstartups
+2026-07-24T19:34:27.866216+00:00 ubuntu-target unix_chkpwd[12391]: password check failed for user (codemane1)
+2026-07-24T19:34:27.869336+00:00 ubuntu-target sshd-session[12364]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:28.008228+00:00 ubuntu-target unix_chkpwd[12398]: password check failed for user (codemane1)
+2026-07-24T19:34:28.010456+00:00 ubuntu-target sshd-session[12369]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:28.017018+00:00 ubuntu-target unix_chkpwd[12401]: password check failed for user (codemane1)
+2026-07-24T19:34:28.025798+00:00 ubuntu-target sshd-session[12380]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:28.030253+00:00 ubuntu-target unix_chkpwd[12402]: password check failed for user (codemane1)
+2026-07-24T19:34:28.030701+00:00 ubuntu-target sshd-session[12371]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:28.047716+00:00 ubuntu-target unix_chkpwd[12396]: password check failed for user (codemane1)
+2026-07-24T19:34:28.048837+00:00 ubuntu-target sshd-session[12372]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:28.052653+00:00 ubuntu-target unix_chkpwd[12403]: password check failed for user (codemane1)
+2026-07-24T19:34:28.053995+00:00 ubuntu-target unix_chkpwd[12393]: password check failed for user (codemane1)
+2026-07-24T19:34:28.054441+00:00 ubuntu-target sshd-session[12384]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:28.058696+00:00 ubuntu-target unix_chkpwd[12404]: password check failed for user (codemane1)
+2026-07-24T19:34:28.059058+00:00 ubuntu-target sshd-session[12385]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:28.061196+00:00 ubuntu-target sshd-session[12367]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:28.061912+00:00 ubuntu-target unix_chkpwd[12394]: password check failed for user (codemane1)
+2026-07-24T19:34:28.066566+00:00 ubuntu-target sshd-session[12365]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:28.068089+00:00 ubuntu-target unix_chkpwd[12395]: password check failed for user (codemane1)
+2026-07-24T19:34:28.068283+00:00 ubuntu-target sshd-session[12376]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:28.071971+00:00 ubuntu-target unix_chkpwd[12405]: password check failed for user (codemane1)
+2026-07-24T19:34:28.074195+00:00 ubuntu-target sshd-session[12386]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:28.075756+00:00 ubuntu-target unix_chkpwd[12400]: password check failed for user (codemane1)
+2026-07-24T19:34:28.076091+00:00 ubuntu-target sshd-session[12375]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:28.078524+00:00 ubuntu-target unix_chkpwd[12397]: password check failed for user (codemane1)
+2026-07-24T19:34:28.079228+00:00 ubuntu-target sshd-session[12368]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:28.080568+00:00 ubuntu-target unix_chkpwd[12399]: password check failed for user (codemane1)
+2026-07-24T19:34:28.080741+00:00 ubuntu-target sshd-session[12374]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:29.577636+00:00 ubuntu-target sshd-session[12380]: Failed password for codemane1 from 192.168.81.128 port 42092 ssh2
+2026-07-24T19:34:29.680353+00:00 ubuntu-target sshd-session[12365]: Failed password for codemane1 from 192.168.81.128 port 42008 ssh2
+2026-07-24T19:34:29.684266+00:00 ubuntu-target sshd-session[12372]: Failed password for codemane1 from 192.168.81.128 port 42038 ssh2
+2026-07-24T19:34:29.684788+00:00 ubuntu-target sshd-session[12385]: Failed password for codemane1 from 192.168.81.128 port 42112 ssh2
+2026-07-24T19:34:29.778127+00:00 ubuntu-target sshd-session[12369]: Failed password for codemane1 from 192.168.81.128 port 42030 ssh2
+2026-07-24T19:34:29.920120+00:00 ubuntu-target sshd-session[12384]: Failed password for codemane1 from 192.168.81.128 port 42098 ssh2
+2026-07-24T19:34:29.939431+00:00 ubuntu-target sshd-session[12371]: Failed password for codemane1 from 192.168.81.128 port 42032 ssh2
+2026-07-24T19:34:29.976134+00:00 ubuntu-target sshd-session[12367]: Failed password for codemane1 from 192.168.81.128 port 42010 ssh2
+2026-07-24T19:34:30.031624+00:00 ubuntu-target sshd-session[12374]: Failed password for codemane1 from 192.168.81.128 port 42044 ssh2
+2026-07-24T19:34:30.201548+00:00 ubuntu-target unix_chkpwd[12407]: password check failed for user (codemane1)
+2026-07-24T19:34:30.207876+00:00 ubuntu-target unix_chkpwd[12411]: password check failed for user (codemane1)
+2026-07-24T19:34:30.210648+00:00 ubuntu-target unix_chkpwd[12413]: password check failed for user (codemane1)
+2026-07-24T19:34:30.222175+00:00 ubuntu-target unix_chkpwd[12410]: password check failed for user (codemane1)
+2026-07-24T19:34:30.228093+00:00 ubuntu-target unix_chkpwd[12406]: password check failed for user (codemane1)
+2026-07-24T19:34:30.238178+00:00 ubuntu-target unix_chkpwd[12414]: password check failed for user (codemane1)
+2026-07-24T19:34:30.241105+00:00 ubuntu-target unix_chkpwd[12408]: password check failed for user (codemane1)
+2026-07-24T19:34:30.244159+00:00 ubuntu-target unix_chkpwd[12409]: password check failed for user (codemane1)
+2026-07-24T19:34:30.245362+00:00 ubuntu-target unix_chkpwd[12412]: password check failed for user (codemane1)
+2026-07-24T19:34:30.296319+00:00 ubuntu-target sshd-session[12364]: Failed password for codemane1 from 192.168.81.128 port 41996 ssh2
+2026-07-24T19:34:30.334028+00:00 ubuntu-target sshd-session[12376]: Failed password for codemane1 from 192.168.81.128 port 42066 ssh2
+2026-07-24T19:34:30.348338+00:00 ubuntu-target sshd-session[12375]: Failed password for codemane1 from 192.168.81.128 port 42060 ssh2
+2026-07-24T19:34:30.376529+00:00 ubuntu-target sshd-session[12368]: Failed password for codemane1 from 192.168.81.128 port 42016 ssh2
+2026-07-24T19:34:30.742658+00:00 ubuntu-target sshd-session[12386]: Failed password for codemane1 from 192.168.81.128 port 42118 ssh2
+2026-07-24T19:34:31.918796+00:00 ubuntu-target sshd-session[12372]: Failed password for codemane1 from 192.168.81.128 port 42038 ssh2
+2026-07-24T19:34:31.961582+00:00 ubuntu-target sshd-session[12367]: Failed password for codemane1 from 192.168.81.128 port 42010 ssh2
+2026-07-24T19:34:32.187535+00:00 ubuntu-target sshd-session[12371]: Failed password for codemane1 from 192.168.81.128 port 42032 ssh2
+2026-07-24T19:34:32.314918+00:00 ubuntu-target unix_chkpwd[12416]: password check failed for user (codemane1)
+2026-07-24T19:34:32.334231+00:00 ubuntu-target sshd-session[12384]: Failed password for codemane1 from 192.168.81.128 port 42098 ssh2
+2026-07-24T19:34:32.336208+00:00 ubuntu-target sshd-session[12385]: Failed password for codemane1 from 192.168.81.128 port 42112 ssh2
+2026-07-24T19:34:32.344254+00:00 ubuntu-target sshd-session[12369]: Failed password for codemane1 from 192.168.81.128 port 42030 ssh2
+2026-07-24T19:34:32.353748+00:00 ubuntu-target unix_chkpwd[12417]: password check failed for user (codemane1)
+2026-07-24T19:34:32.385149+00:00 ubuntu-target unix_chkpwd[12418]: password check failed for user (codemane1)
+2026-07-24T19:34:32.392736+00:00 ubuntu-target sshd-session[12365]: Failed password for codemane1 from 192.168.81.128 port 42008 ssh2
+2026-07-24T19:34:32.419030+00:00 ubuntu-target unix_chkpwd[12419]: password check failed for user (codemane1)
+2026-07-24T19:34:32.433909+00:00 ubuntu-target unix_chkpwd[12420]: password check failed for user (codemane1)
+2026-07-24T19:34:32.439012+00:00 ubuntu-target unix_chkpwd[12424]: password check failed for user (codemane1)
+2026-07-24T19:34:32.442203+00:00 ubuntu-target unix_chkpwd[12425]: password check failed for user (codemane1)
+2026-07-24T19:34:32.455946+00:00 ubuntu-target unix_chkpwd[12422]: password check failed for user (codemane1)
+2026-07-24T19:34:32.456269+00:00 ubuntu-target unix_chkpwd[12421]: password check failed for user (codemane1)
+2026-07-24T19:34:32.456809+00:00 ubuntu-target unix_chkpwd[12423]: password check failed for user (codemane1)
+2026-07-24T19:34:32.461055+00:00 ubuntu-target unix_chkpwd[12426]: password check failed for user (codemane1)
+2026-07-24T19:34:32.587150+00:00 ubuntu-target sshd-session[12374]: Failed password for codemane1 from 192.168.81.128 port 42044 ssh2
+2026-07-24T19:34:32.745042+00:00 ubuntu-target sshd-session[12380]: Failed password for codemane1 from 192.168.81.128 port 42092 ssh2
+2026-07-24T19:34:33.924716+00:00 ubuntu-target sshd-session[12385]: Failed password for codemane1 from 192.168.81.128 port 42112 ssh2
+2026-07-24T19:34:34.258278+00:00 ubuntu-target sshd-session[12376]: Failed password for codemane1 from 192.168.81.128 port 42066 ssh2
+2026-07-24T19:34:34.307593+00:00 ubuntu-target sshd-session[12367]: Failed password for codemane1 from 192.168.81.128 port 42010 ssh2
+2026-07-24T19:34:34.318736+00:00 ubuntu-target sshd-session[12369]: Failed password for codemane1 from 192.168.81.128 port 42030 ssh2
+2026-07-24T19:34:34.421105+00:00 ubuntu-target sshd-session[12372]: Failed password for codemane1 from 192.168.81.128 port 42038 ssh2
+2026-07-24T19:34:34.457090+00:00 ubuntu-target sshd-session[12371]: Failed password for codemane1 from 192.168.81.128 port 42032 ssh2
+2026-07-24T19:34:34.598173+00:00 ubuntu-target sshd-session[12364]: Failed password for codemane1 from 192.168.81.128 port 41996 ssh2
+2026-07-24T19:34:34.612623+00:00 ubuntu-target unix_chkpwd[12427]: password check failed for user (codemane1)
+2026-07-24T19:34:34.627166+00:00 ubuntu-target sshd-session[12386]: Failed password for codemane1 from 192.168.81.128 port 42118 ssh2
+2026-07-24T19:34:34.647498+00:00 ubuntu-target unix_chkpwd[12428]: password check failed for user (codemane1)
+2026-07-24T19:34:34.656262+00:00 ubuntu-target unix_chkpwd[12429]: password check failed for user (codemane1)
+2026-07-24T19:34:34.682600+00:00 ubuntu-target unix_chkpwd[12433]: password check failed for user (codemane1)
+2026-07-24T19:34:34.689962+00:00 ubuntu-target unix_chkpwd[12435]: password check failed for user (codemane1)
+2026-07-24T19:34:34.692188+00:00 ubuntu-target unix_chkpwd[12430]: password check failed for user (codemane1)
+2026-07-24T19:34:34.696758+00:00 ubuntu-target unix_chkpwd[12431]: password check failed for user (codemane1)
+2026-07-24T19:34:34.697053+00:00 ubuntu-target sshd-session[12375]: Failed password for codemane1 from 192.168.81.128 port 42060 ssh2
+2026-07-24T19:34:34.701824+00:00 ubuntu-target unix_chkpwd[12432]: password check failed for user (codemane1)
+2026-07-24T19:34:34.708187+00:00 ubuntu-target unix_chkpwd[12434]: password check failed for user (codemane1)
+2026-07-24T19:34:34.745282+00:00 ubuntu-target sshd-session[12384]: Failed password for codemane1 from 192.168.81.128 port 42098 ssh2
+2026-07-24T19:34:34.889381+00:00 ubuntu-target sshd-session[12368]: Failed password for codemane1 from 192.168.81.128 port 42016 ssh2
+2026-07-24T19:34:36.201807+00:00 ubuntu-target sshd-session[12365]: Failed password for codemane1 from 192.168.81.128 port 42008 ssh2
+2026-07-24T19:34:36.243588+00:00 ubuntu-target sshd-session[12367]: Failed password for codemane1 from 192.168.81.128 port 42010 ssh2
+2026-07-24T19:34:36.503881+00:00 ubuntu-target sshd-session[12374]: Failed password for codemane1 from 192.168.81.128 port 42044 ssh2
+2026-07-24T19:34:36.697297+00:00 ubuntu-target sshd-session[12369]: Failed password for codemane1 from 192.168.81.128 port 42030 ssh2
+2026-07-24T19:34:36.853716+00:00 ubuntu-target unix_chkpwd[12436]: password check failed for user (codemane1)
+2026-07-24T19:34:36.884417+00:00 ubuntu-target unix_chkpwd[12437]: password check failed for user (codemane1)
+2026-07-24T19:34:36.900202+00:00 ubuntu-target unix_chkpwd[12438]: password check failed for user (codemane1)
+2026-07-24T19:34:36.920556+00:00 ubuntu-target sshd-session[12372]: Failed password for codemane1 from 192.168.81.128 port 42038 ssh2
+2026-07-24T19:34:36.923272+00:00 ubuntu-target unix_chkpwd[12440]: password check failed for user (codemane1)
+2026-07-24T19:34:36.926310+00:00 ubuntu-target unix_chkpwd[12441]: password check failed for user (codemane1)
+2026-07-24T19:34:36.929159+00:00 ubuntu-target unix_chkpwd[12439]: password check failed for user (codemane1)
+2026-07-24T19:34:36.940075+00:00 ubuntu-target unix_chkpwd[12443]: password check failed for user (codemane1)
+2026-07-24T19:34:36.946024+00:00 ubuntu-target unix_chkpwd[12442]: password check failed for user (codemane1)
+2026-07-24T19:34:36.952236+00:00 ubuntu-target unix_chkpwd[12444]: password check failed for user (codemane1)
+2026-07-24T19:34:36.985946+00:00 ubuntu-target sshd-session[12380]: Failed password for codemane1 from 192.168.81.128 port 42092 ssh2
+2026-07-24T19:34:36.996308+00:00 ubuntu-target sshd-session[12371]: Failed password for codemane1 from 192.168.81.128 port 42032 ssh2
+2026-07-24T19:34:37.179824+00:00 ubuntu-target sshd-session[12385]: Failed password for codemane1 from 192.168.81.128 port 42112 ssh2
+2026-07-24T19:34:37.267820+00:00 ubuntu-target sshd-session[12376]: Failed password for codemane1 from 192.168.81.128 port 42066 ssh2
+2026-07-24T19:34:38.466101+00:00 ubuntu-target sshd-session[12386]: Failed password for codemane1 from 192.168.81.128 port 42118 ssh2
+2026-07-24T19:34:38.650289+00:00 ubuntu-target sshd-session[12364]: Failed password for codemane1 from 192.168.81.128 port 41996 ssh2
+2026-07-24T19:34:38.696947+00:00 ubuntu-target sshd-session[12369]: Failed password for codemane1 from 192.168.81.128 port 42030 ssh2
+2026-07-24T19:34:38.843162+00:00 ubuntu-target sshd-session[12375]: Failed password for codemane1 from 192.168.81.128 port 42060 ssh2
+2026-07-24T19:34:38.873812+00:00 ubuntu-target sshd-session[12367]: Failed password for codemane1 from 192.168.81.128 port 42010 ssh2
+2026-07-24T19:34:39.058499+00:00 ubuntu-target sshd-session[12374]: Failed password for codemane1 from 192.168.81.128 port 42044 ssh2
+2026-07-24T19:34:39.118477+00:00 ubuntu-target unix_chkpwd[12446]: password check failed for user (codemane1)
+2026-07-24T19:34:39.126127+00:00 ubuntu-target sshd-session[12368]: Failed password for codemane1 from 192.168.81.128 port 42016 ssh2
+2026-07-24T19:34:39.131768+00:00 ubuntu-target unix_chkpwd[12447]: password check failed for user (codemane1)
+2026-07-24T19:34:39.182113+00:00 ubuntu-target unix_chkpwd[12448]: password check failed for user (codemane1)
+2026-07-24T19:34:39.188057+00:00 ubuntu-target unix_chkpwd[12449]: password check failed for user (codemane1)
+2026-07-24T19:34:39.212942+00:00 ubuntu-target unix_chkpwd[12453]: password check failed for user (codemane1)
+2026-07-24T19:34:39.216980+00:00 ubuntu-target unix_chkpwd[12450]: password check failed for user (codemane1)
+2026-07-24T19:34:39.221770+00:00 ubuntu-target unix_chkpwd[12455]: password check failed for user (codemane1)
+2026-07-24T19:34:39.222026+00:00 ubuntu-target unix_chkpwd[12454]: password check failed for user (codemane1)
+2026-07-24T19:34:39.226312+00:00 ubuntu-target unix_chkpwd[12452]: password check failed for user (codemane1)
+2026-07-24T19:34:39.227381+00:00 ubuntu-target unix_chkpwd[12451]: password check failed for user (codemane1)
+2026-07-24T19:34:39.232981+00:00 ubuntu-target unix_chkpwd[12456]: password check failed for user (codemane1)
+2026-07-24T19:34:39.263943+00:00 ubuntu-target sshd-session[12384]: Failed password for codemane1 from 192.168.81.128 port 42098 ssh2
+2026-07-24T19:34:39.393407+00:00 ubuntu-target sshd-session[12365]: Failed password for codemane1 from 192.168.81.128 port 42008 ssh2
+2026-07-24T19:34:40.802012+00:00 ubuntu-target sshd-session[12372]: Failed password for codemane1 from 192.168.81.128 port 42038 ssh2
+2026-07-24T19:34:40.844394+00:00 ubuntu-target sshd-session[12376]: Failed password for codemane1 from 192.168.81.128 port 42066 ssh2
+2026-07-24T19:34:41.027964+00:00 ubuntu-target sshd-session[12374]: Failed password for codemane1 from 192.168.81.128 port 42044 ssh2
+2026-07-24T19:34:41.154853+00:00 ubuntu-target sshd-session[12364]: Failed password for codemane1 from 192.168.81.128 port 41996 ssh2
+2026-07-24T19:34:41.232809+00:00 ubuntu-target sshd-session[12385]: Failed password for codemane1 from 192.168.81.128 port 42112 ssh2
+2026-07-24T19:34:41.319304+00:00 ubuntu-target sshd-session[12375]: Failed password for codemane1 from 192.168.81.128 port 42060 ssh2
+2026-07-24T19:34:41.374392+00:00 ubuntu-target unix_chkpwd[12457]: password check failed for user (codemane1)
+2026-07-24T19:34:41.378306+00:00 ubuntu-target sshd-session[12380]: Failed password for codemane1 from 192.168.81.128 port 42092 ssh2
+2026-07-24T19:34:41.378541+00:00 ubuntu-target sshd-session[12367]: Failed password for codemane1 from 192.168.81.128 port 42010 ssh2
+2026-07-24T19:34:41.467053+00:00 ubuntu-target unix_chkpwd[12458]: password check failed for user (codemane1)
+2026-07-24T19:34:41.475834+00:00 ubuntu-target unix_chkpwd[12461]: password check failed for user (codemane1)
+2026-07-24T19:34:41.488185+00:00 ubuntu-target sshd-session[12371]: Failed password for codemane1 from 192.168.81.128 port 42032 ssh2
+2026-07-24T19:34:41.495503+00:00 ubuntu-target unix_chkpwd[12465]: password check failed for user (codemane1)
+2026-07-24T19:34:41.495828+00:00 ubuntu-target unix_chkpwd[12460]: password check failed for user (codemane1)
+2026-07-24T19:34:41.496056+00:00 ubuntu-target unix_chkpwd[12459]: password check failed for user (codemane1)
+2026-07-24T19:34:41.501597+00:00 ubuntu-target unix_chkpwd[12462]: password check failed for user (codemane1)
+2026-07-24T19:34:41.510876+00:00 ubuntu-target unix_chkpwd[12463]: password check failed for user (codemane1)
+2026-07-24T19:34:41.514220+00:00 ubuntu-target unix_chkpwd[12464]: password check failed for user (codemane1)
+2026-07-24T19:34:41.520278+00:00 ubuntu-target unix_chkpwd[12466]: password check failed for user (codemane1)
+2026-07-24T19:34:41.598289+00:00 ubuntu-target sshd-session[12386]: Failed password for codemane1 from 192.168.81.128 port 42118 ssh2
+2026-07-24T19:34:41.616333+00:00 ubuntu-target sshd-session[12369]: Failed password for codemane1 from 192.168.81.128 port 42030 ssh2
+2026-07-24T19:34:42.834540+00:00 ubuntu-target sshd-session[12375]: Failed password for codemane1 from 192.168.81.128 port 42060 ssh2
+2026-07-24T19:34:42.836206+00:00 ubuntu-target sshd-session[12364]: Failed password for codemane1 from 192.168.81.128 port 41996 ssh2
+2026-07-24T19:34:42.864872+00:00 ubuntu-target sshd-session[12368]: Failed password for codemane1 from 192.168.81.128 port 42016 ssh2
+2026-07-24T19:34:42.967110+00:00 ubuntu-target sshd-session[12372]: Failed password for codemane1 from 192.168.81.128 port 42038 ssh2
+2026-07-24T19:34:43.161208+00:00 ubuntu-target sshd-session[12380]: Failed password for codemane1 from 192.168.81.128 port 42092 ssh2
+2026-07-24T19:34:43.207865+00:00 ubuntu-target sshd-session[12385]: Failed password for codemane1 from 192.168.81.128 port 42112 ssh2
+2026-07-24T19:34:43.530549+00:00 ubuntu-target sshd-session[12384]: Failed password for codemane1 from 192.168.81.128 port 42098 ssh2
+2026-07-24T19:34:43.576319+00:00 ubuntu-target unix_chkpwd[12467]: password check failed for user (codemane1)
+2026-07-24T19:34:43.579566+00:00 ubuntu-target sshd-session[12367]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 42010 ssh2 [preauth]
+2026-07-24T19:34:43.579633+00:00 ubuntu-target sshd-session[12367]: Disconnecting authenticating user codemane1 192.168.81.128 port 42010: Too many authentication failures [preauth]
+2026-07-24T19:34:43.579748+00:00 ubuntu-target sshd-session[12367]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:43.579800+00:00 ubuntu-target sshd-session[12367]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:34:43.615968+00:00 ubuntu-target sshd-session[12372]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 42038 ssh2 [preauth]
+2026-07-24T19:34:43.616042+00:00 ubuntu-target sshd-session[12372]: Disconnecting authenticating user codemane1 192.168.81.128 port 42038: Too many authentication failures [preauth]
+2026-07-24T19:34:43.616075+00:00 ubuntu-target sshd-session[12372]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:43.616103+00:00 ubuntu-target sshd-session[12372]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:34:43.625467+00:00 ubuntu-target unix_chkpwd[12470]: password check failed for user (codemane1)
+2026-07-24T19:34:43.645212+00:00 ubuntu-target sshd-session[12369]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 42030 ssh2 [preauth]
+2026-07-24T19:34:43.645321+00:00 ubuntu-target sshd-session[12369]: Disconnecting authenticating user codemane1 192.168.81.128 port 42030: Too many authentication failures [preauth]
+2026-07-24T19:34:43.645364+00:00 ubuntu-target sshd-session[12369]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:43.645400+00:00 ubuntu-target sshd-session[12369]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:34:43.645597+00:00 ubuntu-target sshd[2535]: drop connection #14 from [192.168.81.128]:48010 on [192.168.81.130]:22 Maxstartups
+2026-07-24T19:34:43.674098+00:00 ubuntu-target unix_chkpwd[12474]: password check failed for user (codemane1)
+2026-07-24T19:34:43.677154+00:00 ubuntu-target sshd-session[12468]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:43.684240+00:00 ubuntu-target unix_chkpwd[12473]: password check failed for user (codemane1)
+2026-07-24T19:34:43.684902+00:00 ubuntu-target sshd-session[12385]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 42112 ssh2 [preauth]
+2026-07-24T19:34:43.685003+00:00 ubuntu-target sshd-session[12385]: Disconnecting authenticating user codemane1 192.168.81.128 port 42112: Too many authentication failures [preauth]
+2026-07-24T19:34:43.685082+00:00 ubuntu-target sshd-session[12385]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:43.685114+00:00 ubuntu-target sshd-session[12385]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:34:43.689047+00:00 ubuntu-target sshd[2535]: srclimit_penalise: 192.168.81.128/32: activating ipv4 penalty of 20 seconds for penalty: failed authentication
+2026-07-24T19:34:43.697565+00:00 ubuntu-target sshd[2535]: drop connection #13 from [192.168.81.128]:48026 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T19:34:43.709267+00:00 ubuntu-target unix_chkpwd[12477]: password check failed for user (codemane1)
+2026-07-24T19:34:43.711138+00:00 ubuntu-target unix_chkpwd[12475]: password check failed for user (codemane1)
+2026-07-24T19:34:43.712339+00:00 ubuntu-target unix_chkpwd[12476]: password check failed for user (codemane1)
+2026-07-24T19:34:43.723586+00:00 ubuntu-target unix_chkpwd[12478]: password check failed for user (codemane1)
+2026-07-24T19:34:43.723897+00:00 ubuntu-target sshd-session[12471]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:43.727604+00:00 ubuntu-target unix_chkpwd[12480]: password check failed for user (codemane1)
+2026-07-24T19:34:43.778804+00:00 ubuntu-target unix_chkpwd[12482]: password check failed for user (codemane1)
+2026-07-24T19:34:43.779105+00:00 ubuntu-target sshd-session[12479]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:43.805104+00:00 ubuntu-target sshd-session[12376]: Failed password for codemane1 from 192.168.81.128 port 42066 ssh2
+2026-07-24T19:34:43.840765+00:00 ubuntu-target sshd-session[12374]: Failed password for codemane1 from 192.168.81.128 port 42044 ssh2
+2026-07-24T19:34:43.921429+00:00 ubuntu-target sshd[2535]: drop connection #13 from [192.168.81.128]:48030 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T19:34:44.147989+00:00 ubuntu-target sshd-session[12365]: Failed password for codemane1 from 192.168.81.128 port 42008 ssh2
+2026-07-24T19:34:44.148451+00:00 ubuntu-target sshd[2535]: drop connection #13 from [192.168.81.128]:48034 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T19:34:44.375481+00:00 ubuntu-target sshd[2535]: drop connection #13 from [192.168.81.128]:48038 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T19:34:44.602028+00:00 ubuntu-target sshd[2535]: drop connection #13 from [192.168.81.128]:48040 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T19:34:44.831686+00:00 ubuntu-target sshd[2535]: drop connection #13 from [192.168.81.128]:48048 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T19:34:45.061162+00:00 ubuntu-target sshd[2535]: drop connection #13 from [192.168.81.128]:48056 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T19:34:45.264600+00:00 ubuntu-target sshd-session[12384]: Failed password for codemane1 from 192.168.81.128 port 42098 ssh2
+2026-07-24T19:34:45.284275+00:00 ubuntu-target sshd-session[12368]: Failed password for codemane1 from 192.168.81.128 port 42016 ssh2
+2026-07-24T19:34:45.301617+00:00 ubuntu-target sshd-session[12479]: Failed password for codemane1 from 192.168.81.128 port 48020 ssh2
+2026-07-24T19:34:45.450989+00:00 ubuntu-target sshd-session[12371]: Failed password for codemane1 from 192.168.81.128 port 42032 ssh2
+2026-07-24T19:34:45.596720+00:00 ubuntu-target sshd-session[12471]: Failed password for codemane1 from 192.168.81.128 port 48002 ssh2
+2026-07-24T19:34:45.609241+00:00 ubuntu-target sshd-session[12468]: Failed password for codemane1 from 192.168.81.128 port 47990 ssh2
+2026-07-24T19:34:45.621015+00:00 ubuntu-target sshd-session[12375]: Failed password for codemane1 from 192.168.81.128 port 42060 ssh2
+2026-07-24T19:34:45.684051+00:00 ubuntu-target sshd-session[12364]: Failed password for codemane1 from 192.168.81.128 port 41996 ssh2
+2026-07-24T19:34:45.735417+00:00 ubuntu-target sshd-session[12380]: Failed password for codemane1 from 192.168.81.128 port 42092 ssh2
+2026-07-24T19:34:45.796697+00:00 ubuntu-target sshd-session[12364]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 41996 ssh2 [preauth]
+2026-07-24T19:34:45.798325+00:00 ubuntu-target sshd-session[12364]: Disconnecting authenticating user codemane1 192.168.81.128 port 41996: Too many authentication failures [preauth]
+2026-07-24T19:34:45.798520+00:00 ubuntu-target sshd-session[12364]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:45.798587+00:00 ubuntu-target sshd-session[12364]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:34:45.800509+00:00 ubuntu-target sshd[2535]: drop connection #13 from [192.168.81.128]:48072 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T19:34:45.880999+00:00 ubuntu-target sshd-session[12375]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 42060 ssh2 [preauth]
+2026-07-24T19:34:45.881107+00:00 ubuntu-target sshd-session[12375]: Disconnecting authenticating user codemane1 192.168.81.128 port 42060: Too many authentication failures [preauth]
+2026-07-24T19:34:45.881137+00:00 ubuntu-target sshd-session[12375]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:45.881170+00:00 ubuntu-target sshd-session[12375]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:34:45.883246+00:00 ubuntu-target sshd[2535]: drop connection #12 from [192.168.81.128]:48074 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T19:34:45.888996+00:00 ubuntu-target sshd-session[12371]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 42032 ssh2 [preauth]
+2026-07-24T19:34:45.889110+00:00 ubuntu-target sshd-session[12371]: Disconnecting authenticating user codemane1 192.168.81.128 port 42032: Too many authentication failures [preauth]
+2026-07-24T19:34:45.889167+00:00 ubuntu-target sshd-session[12371]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:45.889196+00:00 ubuntu-target sshd-session[12371]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:34:45.899060+00:00 ubuntu-target sshd-session[12380]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 42092 ssh2 [preauth]
+2026-07-24T19:34:45.899268+00:00 ubuntu-target sshd-session[12380]: Disconnecting authenticating user codemane1 192.168.81.128 port 42092: Too many authentication failures [preauth]
+2026-07-24T19:34:45.899415+00:00 ubuntu-target sshd-session[12380]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:45.899474+00:00 ubuntu-target sshd-session[12380]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:34:45.923131+00:00 ubuntu-target sshd-session[12374]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 42044 ssh2 [preauth]
+2026-07-24T19:34:45.923269+00:00 ubuntu-target sshd-session[12374]: Disconnecting authenticating user codemane1 192.168.81.128 port 42044: Too many authentication failures [preauth]
+2026-07-24T19:34:45.923318+00:00 ubuntu-target sshd-session[12374]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:45.923349+00:00 ubuntu-target sshd-session[12374]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:34:45.928727+00:00 ubuntu-target unix_chkpwd[12484]: password check failed for user (codemane1)
+2026-07-24T19:34:45.937179+00:00 ubuntu-target sshd-session[12384]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 42098 ssh2 [preauth]
+2026-07-24T19:34:45.937355+00:00 ubuntu-target sshd-session[12384]: Disconnecting authenticating user codemane1 192.168.81.128 port 42098: Too many authentication failures [preauth]
+2026-07-24T19:34:45.937497+00:00 ubuntu-target sshd-session[12384]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:45.937620+00:00 ubuntu-target sshd-session[12384]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:34:45.940213+00:00 ubuntu-target unix_chkpwd[12483]: password check failed for user (codemane1)
+2026-07-24T19:34:45.945203+00:00 ubuntu-target unix_chkpwd[12486]: password check failed for user (codemane1)
+2026-07-24T19:34:45.951932+00:00 ubuntu-target unix_chkpwd[12485]: password check failed for user (codemane1)
+2026-07-24T19:34:45.964104+00:00 ubuntu-target unix_chkpwd[12487]: password check failed for user (codemane1)
+2026-07-24T19:34:45.970250+00:00 ubuntu-target sshd-session[12386]: Failed password for codemane1 from 192.168.81.128 port 42118 ssh2
+2026-07-24T19:34:46.030999+00:00 ubuntu-target unix_chkpwd[12488]: password check failed for user (codemane1)
+2026-07-24T19:34:47.262348+00:00 ubuntu-target sshd-session[12479]: Failed password for codemane1 from 192.168.81.128 port 48020 ssh2
+2026-07-24T19:34:47.641754+00:00 ubuntu-target sshd-session[12365]: Failed password for codemane1 from 192.168.81.128 port 42008 ssh2
+2026-07-24T19:34:47.821002+00:00 ubuntu-target sshd-session[12468]: Failed password for codemane1 from 192.168.81.128 port 47990 ssh2
+2026-07-24T19:34:47.822260+00:00 ubuntu-target sshd-session[12376]: Failed password for codemane1 from 192.168.81.128 port 42066 ssh2
+2026-07-24T19:34:48.092257+00:00 ubuntu-target sshd-session[12365]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 42008 ssh2 [preauth]
+2026-07-24T19:34:48.092614+00:00 ubuntu-target sshd-session[12365]: Disconnecting authenticating user codemane1 192.168.81.128 port 42008: Too many authentication failures [preauth]
+2026-07-24T19:34:48.094055+00:00 ubuntu-target sshd-session[12365]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:48.094386+00:00 ubuntu-target sshd-session[12365]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:34:48.100736+00:00 ubuntu-target sshd-session[12376]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 42066 ssh2 [preauth]
+2026-07-24T19:34:48.101206+00:00 ubuntu-target sshd-session[12376]: Disconnecting authenticating user codemane1 192.168.81.128 port 42066: Too many authentication failures [preauth]
+2026-07-24T19:34:48.103092+00:00 ubuntu-target sshd-session[12376]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:48.103218+00:00 ubuntu-target sshd-session[12376]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:34:48.159605+00:00 ubuntu-target sshd-session[12368]: Failed password for codemane1 from 192.168.81.128 port 42016 ssh2
+2026-07-24T19:34:48.194619+00:00 ubuntu-target unix_chkpwd[12489]: password check failed for user (codemane1)
+2026-07-24T19:34:48.199516+00:00 ubuntu-target unix_chkpwd[12490]: password check failed for user (codemane1)
+2026-07-24T19:34:48.287645+00:00 ubuntu-target unix_chkpwd[12491]: password check failed for user (codemane1)
+2026-07-24T19:34:48.471945+00:00 ubuntu-target sshd-session[12471]: Failed password for codemane1 from 192.168.81.128 port 48002 ssh2
+2026-07-24T19:34:50.050816+00:00 ubuntu-target sshd-session[12386]: Failed password for codemane1 from 192.168.81.128 port 42118 ssh2
+2026-07-24T19:34:50.361208+00:00 ubuntu-target sshd-session[12368]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 42016 ssh2 [preauth]
+2026-07-24T19:34:50.361514+00:00 ubuntu-target sshd-session[12368]: Disconnecting authenticating user codemane1 192.168.81.128 port 42016: Too many authentication failures [preauth]
+2026-07-24T19:34:50.361654+00:00 ubuntu-target sshd-session[12368]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:50.361826+00:00 ubuntu-target sshd-session[12368]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:34:50.396190+00:00 ubuntu-target sshd-session[12386]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 42118 ssh2 [preauth]
+2026-07-24T19:34:50.396366+00:00 ubuntu-target sshd-session[12386]: Disconnecting authenticating user codemane1 192.168.81.128 port 42118: Too many authentication failures [preauth]
+2026-07-24T19:34:50.396524+00:00 ubuntu-target sshd-session[12386]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:50.396798+00:00 ubuntu-target sshd-session[12386]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:34:50.472315+00:00 ubuntu-target unix_chkpwd[12492]: password check failed for user (codemane1)
+2026-07-24T19:34:50.481273+00:00 ubuntu-target sshd-session[12468]: Failed password for codemane1 from 192.168.81.128 port 47990 ssh2
+2026-07-24T19:34:50.721045+00:00 ubuntu-target sshd-session[12479]: Failed password for codemane1 from 192.168.81.128 port 48020 ssh2
+2026-07-24T19:34:52.653105+00:00 ubuntu-target sshd-session[12471]: Failed password for codemane1 from 192.168.81.128 port 48002 ssh2
+2026-07-24T19:34:52.663835+00:00 ubuntu-target unix_chkpwd[12493]: password check failed for user (codemane1)
+2026-07-24T19:34:52.694916+00:00 ubuntu-target unix_chkpwd[12494]: password check failed for user (codemane1)
+2026-07-24T19:34:52.780424+00:00 ubuntu-target unix_chkpwd[12495]: password check failed for user (codemane1)
+2026-07-24T19:34:54.402958+00:00 ubuntu-target sshd-session[12471]: Failed password for codemane1 from 192.168.81.128 port 48002 ssh2
+2026-07-24T19:34:54.512690+00:00 ubuntu-target sshd-session[12479]: Failed password for codemane1 from 192.168.81.128 port 48020 ssh2
+2026-07-24T19:34:54.842636+00:00 ubuntu-target sshd-session[12468]: Failed password for codemane1 from 192.168.81.128 port 47990 ssh2
+2026-07-24T19:34:54.942092+00:00 ubuntu-target unix_chkpwd[12496]: password check failed for user (codemane1)
+2026-07-24T19:34:54.958061+00:00 ubuntu-target unix_chkpwd[12497]: password check failed for user (codemane1)
+2026-07-24T19:34:55.034972+00:00 ubuntu-target unix_chkpwd[12498]: password check failed for user (codemane1)
+2026-07-24T19:34:57.001875+00:00 ubuntu-target sshd-session[12479]: Failed password for codemane1 from 192.168.81.128 port 48020 ssh2
+2026-07-24T19:34:57.206650+00:00 ubuntu-target sshd-session[12471]: Failed password for codemane1 from 192.168.81.128 port 48002 ssh2
+2026-07-24T19:34:57.323961+00:00 ubuntu-target unix_chkpwd[12499]: password check failed for user (codemane1)
+2026-07-24T19:34:57.533203+00:00 ubuntu-target sshd-session[12468]: Failed password for codemane1 from 192.168.81.128 port 47990 ssh2
+2026-07-24T19:34:59.197329+00:00 ubuntu-target sshd-session[12479]: Failed password for codemane1 from 192.168.81.128 port 48020 ssh2
+2026-07-24T19:34:59.436031+00:00 ubuntu-target unix_chkpwd[12500]: password check failed for user (codemane1)
+2026-07-24T19:34:59.452627+00:00 ubuntu-target unix_chkpwd[12501]: password check failed for user (codemane1)
+2026-07-24T19:34:59.509534+00:00 ubuntu-target sshd-session[12479]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 48020 ssh2 [preauth]
+2026-07-24T19:34:59.509665+00:00 ubuntu-target sshd-session[12479]: Disconnecting authenticating user codemane1 192.168.81.128 port 48020: Too many authentication failures [preauth]
+2026-07-24T19:34:59.509859+00:00 ubuntu-target sshd-session[12479]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:34:59.509899+00:00 ubuntu-target sshd-session[12479]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:35:01.570255+00:00 ubuntu-target sshd-session[12468]: Failed password for codemane1 from 192.168.81.128 port 47990 ssh2
+2026-07-24T19:35:01.582585+00:00 ubuntu-target sshd-session[12471]: Failed password for codemane1 from 192.168.81.128 port 48002 ssh2
+2026-07-24T19:35:01.640257+00:00 ubuntu-target sshd-session[12468]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 47990 ssh2 [preauth]
+2026-07-24T19:35:01.640608+00:00 ubuntu-target sshd-session[12468]: Disconnecting authenticating user codemane1 192.168.81.128 port 47990: Too many authentication failures [preauth]
+2026-07-24T19:35:01.644994+00:00 ubuntu-target sshd-session[12468]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:35:01.645262+00:00 ubuntu-target sshd-session[12468]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:35:01.671406+00:00 ubuntu-target sshd-session[12471]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 48002 ssh2 [preauth]
+2026-07-24T19:35:01.671605+00:00 ubuntu-target sshd-session[12471]: Disconnecting authenticating user codemane1 192.168.81.128 port 48002: Too many authentication failures [preauth]
+2026-07-24T19:35:01.672037+00:00 ubuntu-target sshd-session[12471]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:35:01.672343+00:00 ubuntu-target sshd-session[12471]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:35:30.555993+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T19:35:30.559512+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/grep 100010 /var/ossec/logs/alerts/alerts.log
+2026-07-24T19:35:30.559606+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T19:35:39.598191+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T19:35:39.598389+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/grep 100010 /var/ossec/logs/alerts/alerts.log
+2026-07-24T19:35:39.599958+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T19:41:29.106519+00:00 ubuntu-target sshd-session[12562]: Received disconnect from 192.168.81.128 port 49862:11: Bye Bye [preauth]
+2026-07-24T19:41:29.107202+00:00 ubuntu-target sshd-session[12562]: Disconnected from authenticating user codemane1 192.168.81.128 port 49862 [preauth]
+2026-07-24T19:41:29.449337+00:00 ubuntu-target unix_chkpwd[12575]: password check failed for user (codemane1)
+2026-07-24T19:41:29.449750+00:00 ubuntu-target sshd-session[12568]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:41:29.461010+00:00 ubuntu-target unix_chkpwd[12572]: password check failed for user (codemane1)
+2026-07-24T19:41:29.461287+00:00 ubuntu-target sshd-session[12564]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:41:29.484377+00:00 ubuntu-target unix_chkpwd[12573]: password check failed for user (codemane1)
+2026-07-24T19:41:29.484966+00:00 ubuntu-target sshd-session[12565]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:41:29.485985+00:00 ubuntu-target unix_chkpwd[12574]: password check failed for user (codemane1)
+2026-07-24T19:41:29.486220+00:00 ubuntu-target sshd-session[12566]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:41:31.419263+00:00 ubuntu-target sshd-session[12568]: Failed password for codemane1 from 192.168.81.128 port 49898 ssh2
+2026-07-24T19:41:31.473699+00:00 ubuntu-target sshd-session[12565]: Failed password for codemane1 from 192.168.81.128 port 49878 ssh2
+2026-07-24T19:41:31.652708+00:00 ubuntu-target sshd-session[12564]: Failed password for codemane1 from 192.168.81.128 port 49880 ssh2
+2026-07-24T19:41:31.723347+00:00 ubuntu-target sshd-session[12566]: Failed password for codemane1 from 192.168.81.128 port 49914 ssh2
+2026-07-24T19:41:31.728875+00:00 ubuntu-target unix_chkpwd[12576]: password check failed for user (codemane1)
+2026-07-24T19:41:31.732494+00:00 ubuntu-target unix_chkpwd[12577]: password check failed for user (codemane1)
+2026-07-24T19:41:33.338779+00:00 ubuntu-target sshd-session[12565]: Failed password for codemane1 from 192.168.81.128 port 49878 ssh2
+2026-07-24T19:41:33.920889+00:00 ubuntu-target unix_chkpwd[12578]: password check failed for user (codemane1)
+2026-07-24T19:41:33.936844+00:00 ubuntu-target unix_chkpwd[12579]: password check failed for user (codemane1)
+2026-07-24T19:41:33.948416+00:00 ubuntu-target unix_chkpwd[12580]: password check failed for user (codemane1)
+2026-07-24T19:41:33.963486+00:00 ubuntu-target sshd-session[12568]: Failed password for codemane1 from 192.168.81.128 port 49898 ssh2
+2026-07-24T19:41:35.744034+00:00 ubuntu-target sshd-session[12565]: Failed password for codemane1 from 192.168.81.128 port 49878 ssh2
+2026-07-24T19:41:35.793094+00:00 ubuntu-target sshd-session[12566]: Failed password for codemane1 from 192.168.81.128 port 49914 ssh2
+2026-07-24T19:41:35.947902+00:00 ubuntu-target sshd-session[12564]: Failed password for codemane1 from 192.168.81.128 port 49880 ssh2
+2026-07-24T19:41:36.232127+00:00 ubuntu-target unix_chkpwd[12581]: password check failed for user (codemane1)
+2026-07-24T19:41:36.240199+00:00 ubuntu-target unix_chkpwd[12582]: password check failed for user (codemane1)
+2026-07-24T19:41:36.243399+00:00 ubuntu-target unix_chkpwd[12583]: password check failed for user (codemane1)
+2026-07-24T19:41:36.244041+00:00 ubuntu-target unix_chkpwd[12584]: password check failed for user (codemane1)
+2026-07-24T19:41:38.021153+00:00 ubuntu-target sshd-session[12564]: Failed password for codemane1 from 192.168.81.128 port 49880 ssh2
+2026-07-24T19:41:38.055021+00:00 ubuntu-target sshd-session[12565]: Failed password for codemane1 from 192.168.81.128 port 49878 ssh2
+2026-07-24T19:41:38.270994+00:00 ubuntu-target sshd-session[12568]: Failed password for codemane1 from 192.168.81.128 port 49898 ssh2
+2026-07-24T19:41:38.306723+00:00 ubuntu-target sshd-session[12566]: Failed password for codemane1 from 192.168.81.128 port 49914 ssh2
+2026-07-24T19:41:38.472983+00:00 ubuntu-target unix_chkpwd[12586]: password check failed for user (codemane1)
+2026-07-24T19:41:38.476761+00:00 ubuntu-target unix_chkpwd[12587]: password check failed for user (codemane1)
+2026-07-24T19:41:38.480661+00:00 ubuntu-target unix_chkpwd[12588]: password check failed for user (codemane1)
+2026-07-24T19:41:38.484859+00:00 ubuntu-target unix_chkpwd[12589]: password check failed for user (codemane1)
+2026-07-24T19:41:40.077672+00:00 ubuntu-target sshd-session[12565]: Failed password for codemane1 from 192.168.81.128 port 49878 ssh2
+2026-07-24T19:41:40.129465+00:00 ubuntu-target sshd-session[12564]: Failed password for codemane1 from 192.168.81.128 port 49880 ssh2
+2026-07-24T19:41:40.325971+00:00 ubuntu-target sshd-session[12566]: Failed password for codemane1 from 192.168.81.128 port 49914 ssh2
+2026-07-24T19:41:40.499978+00:00 ubuntu-target sshd-session[12568]: Failed password for codemane1 from 192.168.81.128 port 49898 ssh2
+2026-07-24T19:41:40.734111+00:00 ubuntu-target unix_chkpwd[12590]: password check failed for user (codemane1)
+2026-07-24T19:41:40.742854+00:00 ubuntu-target unix_chkpwd[12593]: password check failed for user (codemane1)
+2026-07-24T19:41:40.744052+00:00 ubuntu-target unix_chkpwd[12591]: password check failed for user (codemane1)
+2026-07-24T19:41:40.745971+00:00 ubuntu-target unix_chkpwd[12592]: password check failed for user (codemane1)
+2026-07-24T19:41:42.393426+00:00 ubuntu-target sshd-session[12565]: Failed password for codemane1 from 192.168.81.128 port 49878 ssh2
+2026-07-24T19:41:42.505250+00:00 ubuntu-target sshd-session[12564]: Failed password for codemane1 from 192.168.81.128 port 49880 ssh2
+2026-07-24T19:41:42.590886+00:00 ubuntu-target sshd-session[12566]: Failed password for codemane1 from 192.168.81.128 port 49914 ssh2
+2026-07-24T19:41:42.684635+00:00 ubuntu-target sshd-session[12568]: Failed password for codemane1 from 192.168.81.128 port 49898 ssh2
+2026-07-24T19:41:42.936280+00:00 ubuntu-target sshd-session[12565]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 49878 ssh2 [preauth]
+2026-07-24T19:41:42.936466+00:00 ubuntu-target sshd-session[12565]: Disconnecting authenticating user codemane1 192.168.81.128 port 49878: Too many authentication failures [preauth]
+2026-07-24T19:41:42.936585+00:00 ubuntu-target sshd-session[12565]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:41:42.936678+00:00 ubuntu-target sshd-session[12565]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:41:43.018215+00:00 ubuntu-target unix_chkpwd[12594]: password check failed for user (codemane1)
+2026-07-24T19:41:43.029901+00:00 ubuntu-target unix_chkpwd[12595]: password check failed for user (codemane1)
+2026-07-24T19:41:43.035053+00:00 ubuntu-target unix_chkpwd[12597]: password check failed for user (codemane1)
+2026-07-24T19:41:43.060566+00:00 ubuntu-target unix_chkpwd[12600]: password check failed for user (codemane1)
+2026-07-24T19:41:43.060958+00:00 ubuntu-target sshd-session[12596]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:41:44.635650+00:00 ubuntu-target sshd-session[12596]: Failed password for codemane1 from 192.168.81.128 port 43168 ssh2
+2026-07-24T19:41:44.663538+00:00 ubuntu-target sshd-session[12566]: Failed password for codemane1 from 192.168.81.128 port 49914 ssh2
+2026-07-24T19:41:44.985863+00:00 ubuntu-target sshd-session[12564]: Failed password for codemane1 from 192.168.81.128 port 49880 ssh2
+2026-07-24T19:41:45.097017+00:00 ubuntu-target sshd-session[12568]: Failed password for codemane1 from 192.168.81.128 port 49898 ssh2
+2026-07-24T19:41:45.153305+00:00 ubuntu-target sshd-session[12564]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 49880 ssh2 [preauth]
+2026-07-24T19:41:45.153732+00:00 ubuntu-target sshd-session[12564]: Disconnecting authenticating user codemane1 192.168.81.128 port 49880: Too many authentication failures [preauth]
+2026-07-24T19:41:45.153892+00:00 ubuntu-target sshd-session[12564]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:41:45.154245+00:00 ubuntu-target sshd-session[12564]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:41:45.166209+00:00 ubuntu-target sshd-session[12566]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 49914 ssh2 [preauth]
+2026-07-24T19:41:45.166708+00:00 ubuntu-target sshd-session[12566]: Disconnecting authenticating user codemane1 192.168.81.128 port 49914: Too many authentication failures [preauth]
+2026-07-24T19:41:45.166811+00:00 ubuntu-target sshd-session[12566]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:41:45.166875+00:00 ubuntu-target sshd-session[12566]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:41:45.191980+00:00 ubuntu-target sshd-session[12568]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 49898 ssh2 [preauth]
+2026-07-24T19:41:45.192408+00:00 ubuntu-target sshd-session[12568]: Disconnecting authenticating user codemane1 192.168.81.128 port 49898: Too many authentication failures [preauth]
+2026-07-24T19:41:45.193381+00:00 ubuntu-target sshd-session[12568]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:41:45.193499+00:00 ubuntu-target sshd-session[12568]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T19:41:45.195619+00:00 ubuntu-target sshd[2535]: srclimit_penalise: 192.168.81.128/32: activating ipv4 penalty of 18 seconds for penalty: failed authentication
+2026-07-24T19:41:45.276278+00:00 ubuntu-target unix_chkpwd[12608]: password check failed for user (codemane1)
+2026-07-24T19:41:45.278193+00:00 ubuntu-target sshd-session[12602]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:41:45.278433+00:00 ubuntu-target unix_chkpwd[12607]: password check failed for user (codemane1)
+2026-07-24T19:41:45.278605+00:00 ubuntu-target sshd-session[12601]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:41:45.292623+00:00 ubuntu-target unix_chkpwd[12609]: password check failed for user (codemane1)
+2026-07-24T19:41:45.293140+00:00 ubuntu-target sshd-session[12605]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:41:45.310737+00:00 ubuntu-target unix_chkpwd[12610]: password check failed for user (codemane1)
+2026-07-24T19:41:46.832398+00:00 ubuntu-target sshd-session[12596]: Failed password for codemane1 from 192.168.81.128 port 43168 ssh2
+2026-07-24T19:41:47.038892+00:00 ubuntu-target sshd-session[12602]: Failed password for codemane1 from 192.168.81.128 port 43184 ssh2
+2026-07-24T19:41:47.061527+00:00 ubuntu-target sshd-session[12605]: Failed password for codemane1 from 192.168.81.128 port 43196 ssh2
+2026-07-24T19:41:47.200449+00:00 ubuntu-target sshd-session[12601]: Failed password for codemane1 from 192.168.81.128 port 43174 ssh2
+2026-07-24T19:41:47.526964+00:00 ubuntu-target unix_chkpwd[12611]: password check failed for user (codemane1)
+2026-07-24T19:41:47.540191+00:00 ubuntu-target unix_chkpwd[12612]: password check failed for user (codemane1)
+2026-07-24T19:41:47.548941+00:00 ubuntu-target unix_chkpwd[12613]: password check failed for user (codemane1)
+2026-07-24T19:41:47.562045+00:00 ubuntu-target unix_chkpwd[12614]: password check failed for user (codemane1)
+2026-07-24T19:41:49.011146+00:00 ubuntu-target sshd-session[12596]: Failed password for codemane1 from 192.168.81.128 port 43168 ssh2
+2026-07-24T19:41:49.245636+00:00 ubuntu-target sshd-session[12602]: Failed password for codemane1 from 192.168.81.128 port 43184 ssh2
+2026-07-24T19:41:49.634562+00:00 ubuntu-target sshd-session[12601]: Failed password for codemane1 from 192.168.81.128 port 43174 ssh2
+2026-07-24T19:41:49.802276+00:00 ubuntu-target unix_chkpwd[12621]: password check failed for user (codemane1)
+2026-07-24T19:41:49.806850+00:00 ubuntu-target unix_chkpwd[12620]: password check failed for user (codemane1)
+2026-07-24T19:41:49.826127+00:00 ubuntu-target unix_chkpwd[12622]: password check failed for user (codemane1)
+2026-07-24T19:41:49.929300+00:00 ubuntu-target sshd-session[12605]: Failed password for codemane1 from 192.168.81.128 port 43196 ssh2
+2026-07-24T19:41:51.713435+00:00 ubuntu-target sshd-session[12601]: Failed password for codemane1 from 192.168.81.128 port 43174 ssh2
+2026-07-24T19:41:51.985105+00:00 ubuntu-target sshd-session[12601]: Connection closed by authenticating user codemane1 192.168.81.128 port 43174 [preauth]
+2026-07-24T19:41:51.985493+00:00 ubuntu-target sshd-session[12601]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:41:51.994532+00:00 ubuntu-target sshd-session[12602]: Failed password for codemane1 from 192.168.81.128 port 43184 ssh2
+2026-07-24T19:41:51.995061+00:00 ubuntu-target sshd-session[12602]: Connection closed by authenticating user codemane1 192.168.81.128 port 43184 [preauth]
+2026-07-24T19:41:51.995221+00:00 ubuntu-target sshd-session[12602]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:41:52.004043+00:00 ubuntu-target sshd-session[12605]: Connection closed by authenticating user codemane1 192.168.81.128 port 43196 [preauth]
+2026-07-24T19:41:52.004485+00:00 ubuntu-target sshd-session[12605]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:41:52.283727+00:00 ubuntu-target sshd-session[12596]: Failed password for codemane1 from 192.168.81.128 port 43168 ssh2
+2026-07-24T19:41:54.286280+00:00 ubuntu-target sshd-session[12596]: Connection closed by authenticating user codemane1 192.168.81.128 port 43168 [preauth]
+2026-07-24T19:41:54.286477+00:00 ubuntu-target sshd-session[12596]: PAM 3 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T19:41:54.286551+00:00 ubuntu-target sshd-session[12596]: PAM service(sshd) ignoring max retries; 4 > 3
+2026-07-24T19:42:19.172676+00:00 ubuntu-target sshd[2535]: drop connection #0 from [192.168.81.128]:34774 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T19:42:19.174392+00:00 ubuntu-target sshd[2535]: PerSourcePenalties logging rate-limited: additional 29 connections dropped
+2026-07-24T19:43:29.171327+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T19:43:29.174483+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-07-24T19:43:33.575655+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T19:46:05.290455+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T19:46:05.293721+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/grep rule.*100010\\|Multiple SSH authentication failures /var/ossec/logs/alerts/alerts.log
+2026-07-24T19:46:05.297512+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T19:54:29.136220+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T19:54:29.139588+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/nano /var/ossec/etc/rules/local_rules.xml
+2026-07-24T20:00:29.853642+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T20:00:55.136367+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T20:00:55.137884+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/grep -A1 100010 /var/ossec/etc/rules/local_rules.xml
+2026-07-24T20:00:55.140055+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T20:00:55.154837+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T20:00:55.155088+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl restart wazuh-manager
+2026-07-24T20:01:04.288872+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T20:01:04.305607+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T20:01:04.305943+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-manager
+2026-07-24T20:01:36.587230+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T20:02:32.159018+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T20:02:32.159424+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/grep -A1 100010 /var/ossec/etc/rules/local_rules.xml
+2026-07-24T20:02:32.161483+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T20:03:14.332897+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T20:03:14.333543+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl restart wazuh-manager
+2026-07-24T20:03:23.353702+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T20:03:23.363861+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T20:03:23.364037+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-manager
+2026-07-24T20:03:26.807881+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T20:03:42.242839+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T20:03:42.243429+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/var/ossec/bin/wazuh-logtest 
+2026-07-24T20:05:11.293882+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T20:08:43.329091+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T20:08:43.329731+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/sed -i s/<if_matched_sid>5716<\\/if_matched_sid>/<if_matched_sid>5760<\\/if_matched_sid>/ /var/ossec/etc/rules/local_rules.xml
+2026-07-24T20:08:43.332621+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T20:08:50.733045+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T20:08:50.735717+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/grep -B1 -A1 if_matched_sid /var/ossec/etc/rules/local_rules.xml
+2026-07-24T20:08:50.737370+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T20:09:11.787894+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T20:09:11.788355+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/systemctl restart wazuh-manager
+2026-07-24T20:09:19.942411+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T20:09:19.953260+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T20:09:19.953457+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/var/ossec/bin/wazuh-logtest 
+2026-07-24T20:11:10.142095+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T20:12:20.636715+00:00 ubuntu-target sshd-session[20190]: Received disconnect from 192.168.81.128 port 45876:11: Bye Bye [preauth]
+2026-07-24T20:12:20.637474+00:00 ubuntu-target sshd-session[20190]: Disconnected from authenticating user codemane1 192.168.81.128 port 45876 [preauth]
+2026-07-24T20:12:20.987535+00:00 ubuntu-target unix_chkpwd[20201]: password check failed for user (codemane1)
+2026-07-24T20:12:20.987993+00:00 ubuntu-target sshd-session[20193]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T20:12:21.005815+00:00 ubuntu-target unix_chkpwd[20203]: password check failed for user (codemane1)
+2026-07-24T20:12:21.006400+00:00 ubuntu-target sshd-session[20194]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T20:12:21.011051+00:00 ubuntu-target unix_chkpwd[20200]: password check failed for user (codemane1)
+2026-07-24T20:12:21.011479+00:00 ubuntu-target sshd-session[20192]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T20:12:21.014438+00:00 ubuntu-target unix_chkpwd[20202]: password check failed for user (codemane1)
+2026-07-24T20:12:21.014638+00:00 ubuntu-target sshd-session[20196]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T20:12:22.450511+00:00 ubuntu-target sshd-session[20192]: Failed password for codemane1 from 192.168.81.128 port 45892 ssh2
+2026-07-24T20:12:22.747285+00:00 ubuntu-target sshd-session[20193]: Failed password for codemane1 from 192.168.81.128 port 45900 ssh2
+2026-07-24T20:12:22.780760+00:00 ubuntu-target sshd-session[20196]: Failed password for codemane1 from 192.168.81.128 port 45918 ssh2
+2026-07-24T20:12:23.079308+00:00 ubuntu-target sshd-session[20194]: Failed password for codemane1 from 192.168.81.128 port 45908 ssh2
+2026-07-24T20:12:23.250545+00:00 ubuntu-target unix_chkpwd[20204]: password check failed for user (codemane1)
+2026-07-24T20:12:23.258991+00:00 ubuntu-target unix_chkpwd[20205]: password check failed for user (codemane1)
+2026-07-24T20:12:23.261289+00:00 ubuntu-target unix_chkpwd[20207]: password check failed for user (codemane1)
+2026-07-24T20:12:23.262750+00:00 ubuntu-target unix_chkpwd[20206]: password check failed for user (codemane1)
+2026-07-24T20:12:25.095470+00:00 ubuntu-target sshd-session[20193]: Failed password for codemane1 from 192.168.81.128 port 45900 ssh2
+2026-07-24T20:12:25.185117+00:00 ubuntu-target sshd-session[20196]: Failed password for codemane1 from 192.168.81.128 port 45918 ssh2
+2026-07-24T20:12:25.217542+00:00 ubuntu-target sshd-session[20194]: Failed password for codemane1 from 192.168.81.128 port 45908 ssh2
+2026-07-24T20:12:25.498520+00:00 ubuntu-target unix_chkpwd[20209]: password check failed for user (codemane1)
+2026-07-24T20:12:25.511648+00:00 ubuntu-target unix_chkpwd[20208]: password check failed for user (codemane1)
+2026-07-24T20:12:25.515841+00:00 ubuntu-target unix_chkpwd[20210]: password check failed for user (codemane1)
+2026-07-24T20:12:25.564854+00:00 ubuntu-target sshd-session[20192]: Failed password for codemane1 from 192.168.81.128 port 45892 ssh2
+2026-07-24T20:12:27.390071+00:00 ubuntu-target sshd-session[20193]: Failed password for codemane1 from 192.168.81.128 port 45900 ssh2
+2026-07-24T20:12:27.438607+00:00 ubuntu-target sshd-session[20196]: Failed password for codemane1 from 192.168.81.128 port 45918 ssh2
+2026-07-24T20:12:27.638308+00:00 ubuntu-target sshd-session[20194]: Failed password for codemane1 from 192.168.81.128 port 45908 ssh2
+2026-07-24T20:12:27.759165+00:00 ubuntu-target unix_chkpwd[20211]: password check failed for user (codemane1)
+2026-07-24T20:12:27.763204+00:00 ubuntu-target unix_chkpwd[20212]: password check failed for user (codemane1)
+2026-07-24T20:12:27.768131+00:00 ubuntu-target unix_chkpwd[20213]: password check failed for user (codemane1)
+2026-07-24T20:12:27.772894+00:00 ubuntu-target unix_chkpwd[20214]: password check failed for user (codemane1)
+2026-07-24T20:12:29.536361+00:00 ubuntu-target sshd-session[20192]: Failed password for codemane1 from 192.168.81.128 port 45892 ssh2
+2026-07-24T20:12:29.631411+00:00 ubuntu-target sshd-session[20196]: Failed password for codemane1 from 192.168.81.128 port 45918 ssh2
+2026-07-24T20:12:29.633484+00:00 ubuntu-target sshd-session[20193]: Failed password for codemane1 from 192.168.81.128 port 45900 ssh2
+2026-07-24T20:12:29.989689+00:00 ubuntu-target unix_chkpwd[20215]: password check failed for user (codemane1)
+2026-07-24T20:12:30.003870+00:00 ubuntu-target unix_chkpwd[20216]: password check failed for user (codemane1)
+2026-07-24T20:12:30.013761+00:00 ubuntu-target unix_chkpwd[20217]: password check failed for user (codemane1)
+2026-07-24T20:12:30.151689+00:00 ubuntu-target sshd-session[20194]: Failed password for codemane1 from 192.168.81.128 port 45908 ssh2
+2026-07-24T20:12:31.863066+00:00 ubuntu-target sshd-session[20192]: Failed password for codemane1 from 192.168.81.128 port 45892 ssh2
+2026-07-24T20:12:31.899656+00:00 ubuntu-target sshd-session[20196]: Failed password for codemane1 from 192.168.81.128 port 45918 ssh2
+2026-07-24T20:12:32.241040+00:00 ubuntu-target unix_chkpwd[20219]: password check failed for user (codemane1)
+2026-07-24T20:12:32.248972+00:00 ubuntu-target unix_chkpwd[20218]: password check failed for user (codemane1)
+2026-07-24T20:12:32.258684+00:00 ubuntu-target unix_chkpwd[20220]: password check failed for user (codemane1)
+2026-07-24T20:12:32.471587+00:00 ubuntu-target sshd-session[20193]: Failed password for codemane1 from 192.168.81.128 port 45900 ssh2
+2026-07-24T20:12:33.714275+00:00 ubuntu-target sshd-session[20194]: Failed password for codemane1 from 192.168.81.128 port 45908 ssh2
+2026-07-24T20:12:34.139646+00:00 ubuntu-target sshd-session[20196]: Failed password for codemane1 from 192.168.81.128 port 45918 ssh2
+2026-07-24T20:12:34.446628+00:00 ubuntu-target sshd-session[20196]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 45918 ssh2 [preauth]
+2026-07-24T20:12:34.447101+00:00 ubuntu-target sshd-session[20196]: Disconnecting authenticating user codemane1 192.168.81.128 port 45918: Too many authentication failures [preauth]
+2026-07-24T20:12:34.449470+00:00 ubuntu-target sshd-session[20196]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T20:12:34.449668+00:00 ubuntu-target sshd-session[20196]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T20:12:34.505342+00:00 ubuntu-target unix_chkpwd[20222]: password check failed for user (codemane1)
+2026-07-24T20:12:34.510954+00:00 ubuntu-target unix_chkpwd[20224]: password check failed for user (codemane1)
+2026-07-24T20:12:34.543806+00:00 ubuntu-target unix_chkpwd[20225]: password check failed for user (codemane1)
+2026-07-24T20:12:34.544104+00:00 ubuntu-target sshd-session[20221]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T20:12:34.803648+00:00 ubuntu-target sshd-session[20192]: Failed password for codemane1 from 192.168.81.128 port 45892 ssh2
+2026-07-24T20:12:35.960396+00:00 ubuntu-target sshd-session[20193]: Failed password for codemane1 from 192.168.81.128 port 45900 ssh2
+2026-07-24T20:12:35.961372+00:00 ubuntu-target sshd-session[20194]: Failed password for codemane1 from 192.168.81.128 port 45908 ssh2
+2026-07-24T20:12:36.708236+00:00 ubuntu-target sshd-session[20194]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 45908 ssh2 [preauth]
+2026-07-24T20:12:36.708420+00:00 ubuntu-target sshd-session[20194]: Disconnecting authenticating user codemane1 192.168.81.128 port 45908: Too many authentication failures [preauth]
+2026-07-24T20:12:36.711012+00:00 ubuntu-target sshd-session[20194]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T20:12:36.711129+00:00 ubuntu-target sshd-session[20194]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T20:12:36.718379+00:00 ubuntu-target sshd-session[20193]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 45900 ssh2 [preauth]
+2026-07-24T20:12:36.718617+00:00 ubuntu-target sshd-session[20193]: Disconnecting authenticating user codemane1 192.168.81.128 port 45900: Too many authentication failures [preauth]
+2026-07-24T20:12:36.718820+00:00 ubuntu-target sshd-session[20193]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T20:12:36.718900+00:00 ubuntu-target sshd-session[20193]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T20:12:36.734012+00:00 ubuntu-target unix_chkpwd[20226]: password check failed for user (codemane1)
+2026-07-24T20:12:36.806911+00:00 ubuntu-target unix_chkpwd[20231]: password check failed for user (codemane1)
+2026-07-24T20:12:36.808240+00:00 ubuntu-target sshd-session[20227]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T20:12:36.811244+00:00 ubuntu-target unix_chkpwd[20232]: password check failed for user (codemane1)
+2026-07-24T20:12:36.811458+00:00 ubuntu-target sshd-session[20229]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T20:12:36.890786+00:00 ubuntu-target sshd-session[20221]: Failed password for codemane1 from 192.168.81.128 port 41562 ssh2
+2026-07-24T20:12:38.218400+00:00 ubuntu-target sshd-session[20192]: Failed password for codemane1 from 192.168.81.128 port 45892 ssh2
+2026-07-24T20:12:38.895320+00:00 ubuntu-target sshd-session[20227]: Failed password for codemane1 from 192.168.81.128 port 41578 ssh2
+2026-07-24T20:12:38.939231+00:00 ubuntu-target sshd-session[20192]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 45892 ssh2 [preauth]
+2026-07-24T20:12:38.941208+00:00 ubuntu-target sshd-session[20192]: Disconnecting authenticating user codemane1 192.168.81.128 port 45892: Too many authentication failures [preauth]
+2026-07-24T20:12:38.941305+00:00 ubuntu-target sshd-session[20192]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T20:12:38.941359+00:00 ubuntu-target sshd-session[20192]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T20:12:38.944260+00:00 ubuntu-target sshd[2535]: srclimit_penalise: 192.168.81.128/32: activating ipv4 penalty of 16 seconds for penalty: failed authentication
+2026-07-24T20:12:39.063112+00:00 ubuntu-target unix_chkpwd[20236]: password check failed for user (codemane1)
+2026-07-24T20:12:39.071781+00:00 ubuntu-target unix_chkpwd[20235]: password check failed for user (codemane1)
+2026-07-24T20:12:39.073149+00:00 ubuntu-target sshd-session[20233]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T20:12:39.084262+00:00 ubuntu-target unix_chkpwd[20237]: password check failed for user (codemane1)
+2026-07-24T20:12:39.610692+00:00 ubuntu-target sshd-session[20229]: Failed password for codemane1 from 192.168.81.128 port 41582 ssh2
+2026-07-24T20:12:40.665072+00:00 ubuntu-target sshd-session[20227]: Failed password for codemane1 from 192.168.81.128 port 41578 ssh2
+2026-07-24T20:12:40.959659+00:00 ubuntu-target sshd-session[20221]: Failed password for codemane1 from 192.168.81.128 port 41562 ssh2
+2026-07-24T20:12:41.322231+00:00 ubuntu-target unix_chkpwd[20239]: password check failed for user (codemane1)
+2026-07-24T20:12:41.339115+00:00 ubuntu-target unix_chkpwd[20240]: password check failed for user (codemane1)
+2026-07-24T20:12:41.340095+00:00 ubuntu-target unix_chkpwd[20241]: password check failed for user (codemane1)
+2026-07-24T20:12:41.424527+00:00 ubuntu-target sshd-session[20233]: Failed password for codemane1 from 192.168.81.128 port 58012 ssh2
+2026-07-24T20:12:43.256482+00:00 ubuntu-target sshd-session[20227]: Failed password for codemane1 from 192.168.81.128 port 41578 ssh2
+2026-07-24T20:12:43.311544+00:00 ubuntu-target sshd-session[20229]: Failed password for codemane1 from 192.168.81.128 port 41582 ssh2
+2026-07-24T20:12:43.333860+00:00 ubuntu-target sshd-session[20221]: Failed password for codemane1 from 192.168.81.128 port 41562 ssh2
+2026-07-24T20:12:43.588173+00:00 ubuntu-target unix_chkpwd[20242]: password check failed for user (codemane1)
+2026-07-24T20:12:43.592669+00:00 ubuntu-target unix_chkpwd[20243]: password check failed for user (codemane1)
+2026-07-24T20:12:43.597673+00:00 ubuntu-target unix_chkpwd[20244]: password check failed for user (codemane1)
+2026-07-24T20:12:43.601857+00:00 ubuntu-target unix_chkpwd[20245]: password check failed for user (codemane1)
+2026-07-24T20:12:45.214649+00:00 ubuntu-target sshd-session[20227]: Failed password for codemane1 from 192.168.81.128 port 41578 ssh2
+2026-07-24T20:12:45.607482+00:00 ubuntu-target sshd-session[20233]: Failed password for codemane1 from 192.168.81.128 port 58012 ssh2
+2026-07-24T20:12:45.770827+00:00 ubuntu-target sshd-session[20229]: Failed password for codemane1 from 192.168.81.128 port 41582 ssh2
+2026-07-24T20:12:45.826765+00:00 ubuntu-target unix_chkpwd[20247]: password check failed for user (codemane1)
+2026-07-24T20:12:45.828202+00:00 ubuntu-target unix_chkpwd[20246]: password check failed for user (codemane1)
+2026-07-24T20:12:45.843987+00:00 ubuntu-target unix_chkpwd[20248]: password check failed for user (codemane1)
+2026-07-24T20:12:46.042584+00:00 ubuntu-target sshd-session[20221]: Failed password for codemane1 from 192.168.81.128 port 41562 ssh2
+2026-07-24T20:12:47.612221+00:00 ubuntu-target sshd-session[20227]: Failed password for codemane1 from 192.168.81.128 port 41578 ssh2
+2026-07-24T20:12:47.767725+00:00 ubuntu-target sshd-session[20233]: Failed password for codemane1 from 192.168.81.128 port 58012 ssh2
+2026-07-24T20:12:47.981181+00:00 ubuntu-target sshd-session[20229]: Failed password for codemane1 from 192.168.81.128 port 41582 ssh2
+2026-07-24T20:12:48.084216+00:00 ubuntu-target unix_chkpwd[20249]: password check failed for user (codemane1)
+2026-07-24T20:12:48.097996+00:00 ubuntu-target unix_chkpwd[20250]: password check failed for user (codemane1)
+2026-07-24T20:12:48.099808+00:00 ubuntu-target unix_chkpwd[20252]: password check failed for user (codemane1)
+2026-07-24T20:12:48.101986+00:00 ubuntu-target unix_chkpwd[20251]: password check failed for user (codemane1)
+2026-07-24T20:12:49.839978+00:00 ubuntu-target sshd-session[20233]: Failed password for codemane1 from 192.168.81.128 port 58012 ssh2
+2026-07-24T20:12:49.879414+00:00 ubuntu-target sshd-session[20221]: Failed password for codemane1 from 192.168.81.128 port 41562 ssh2
+2026-07-24T20:12:50.319121+00:00 ubuntu-target unix_chkpwd[20254]: password check failed for user (codemane1)
+2026-07-24T20:12:50.321771+00:00 ubuntu-target unix_chkpwd[20255]: password check failed for user (codemane1)
+2026-07-24T20:12:50.639428+00:00 ubuntu-target sshd-session[20229]: Failed password for codemane1 from 192.168.81.128 port 41582 ssh2
+2026-07-24T20:12:50.791237+00:00 ubuntu-target sshd-session[20227]: Failed password for codemane1 from 192.168.81.128 port 41578 ssh2
+2026-07-24T20:12:52.412663+00:00 ubuntu-target sshd-session[20233]: Failed password for codemane1 from 192.168.81.128 port 58012 ssh2
+2026-07-24T20:12:52.550966+00:00 ubuntu-target sshd-session[20227]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 41578 ssh2 [preauth]
+2026-07-24T20:12:52.551205+00:00 ubuntu-target sshd-session[20227]: Disconnecting authenticating user codemane1 192.168.81.128 port 41578: Too many authentication failures [preauth]
+2026-07-24T20:12:52.551388+00:00 ubuntu-target sshd-session[20227]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T20:12:52.552180+00:00 ubuntu-target sshd-session[20227]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T20:12:52.553229+00:00 ubuntu-target sshd[2535]: drop connection #4 from [192.168.81.128]:53966 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T20:12:52.568611+00:00 ubuntu-target unix_chkpwd[20256]: password check failed for user (codemane1)
+2026-07-24T20:12:52.577280+00:00 ubuntu-target unix_chkpwd[20257]: password check failed for user (codemane1)
+2026-07-24T20:12:52.767628+00:00 ubuntu-target sshd[2535]: drop connection #3 from [192.168.81.128]:53972 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T20:12:52.992516+00:00 ubuntu-target sshd[2535]: drop connection #3 from [192.168.81.128]:53988 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T20:12:53.000254+00:00 ubuntu-target sshd-session[20221]: Failed password for codemane1 from 192.168.81.128 port 41562 ssh2
+2026-07-24T20:12:53.218373+00:00 ubuntu-target sshd[2535]: drop connection #3 from [192.168.81.128]:54002 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T20:12:53.443980+00:00 ubuntu-target sshd[2535]: drop connection #3 from [192.168.81.128]:54008 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T20:12:53.667949+00:00 ubuntu-target sshd[2535]: drop connection #3 from [192.168.81.128]:54016 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T20:12:53.893335+00:00 ubuntu-target sshd[2535]: drop connection #3 from [192.168.81.128]:54026 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T20:12:54.118532+00:00 ubuntu-target sshd[2535]: drop connection #3 from [192.168.81.128]:54042 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T20:12:54.292513+00:00 ubuntu-target sshd-session[20229]: Failed password for codemane1 from 192.168.81.128 port 41582 ssh2
+2026-07-24T20:12:54.344264+00:00 ubuntu-target sshd[2535]: drop connection #3 from [192.168.81.128]:54050 on [192.168.81.130]:22 penalty: failed authentication
+2026-07-24T20:12:54.417166+00:00 ubuntu-target sshd-session[20233]: Failed password for codemane1 from 192.168.81.128 port 58012 ssh2
+2026-07-24T20:12:54.767236+00:00 ubuntu-target sshd-session[20233]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 58012 ssh2 [preauth]
+2026-07-24T20:12:54.767459+00:00 ubuntu-target sshd-session[20233]: Disconnecting authenticating user codemane1 192.168.81.128 port 58012: Too many authentication failures [preauth]
+2026-07-24T20:12:54.768089+00:00 ubuntu-target sshd-session[20233]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T20:12:54.768362+00:00 ubuntu-target sshd-session[20233]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T20:12:54.774635+00:00 ubuntu-target sshd-session[20221]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 41562 ssh2 [preauth]
+2026-07-24T20:12:54.774843+00:00 ubuntu-target sshd-session[20221]: Disconnecting authenticating user codemane1 192.168.81.128 port 41562: Too many authentication failures [preauth]
+2026-07-24T20:12:54.775890+00:00 ubuntu-target sshd-session[20221]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T20:12:54.775988+00:00 ubuntu-target sshd-session[20221]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T20:12:54.786995+00:00 ubuntu-target sshd-session[20229]: error: maximum authentication attempts exceeded for codemane1 from 192.168.81.128 port 41582 ssh2 [preauth]
+2026-07-24T20:12:54.787235+00:00 ubuntu-target sshd-session[20229]: Disconnecting authenticating user codemane1 192.168.81.128 port 41582: Too many authentication failures [preauth]
+2026-07-24T20:12:54.787746+00:00 ubuntu-target sshd-session[20229]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.81.128  user=codemane1
+2026-07-24T20:12:54.787834+00:00 ubuntu-target sshd-session[20229]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-07-24T20:13:18.415357+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T20:13:18.415981+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/grep \"id\":\"100010\" /var/ossec/logs/alerts/alerts.json
+2026-07-24T20:13:18.424013+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T20:14:39.307914+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T20:14:39.309582+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/grep \"id\":\"100010\" /var/ossec/logs/alerts/alerts.json
+2026-07-24T20:14:39.315235+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T20:16:43.217642+00:00 ubuntu-target sshd-session[20305]: Accepted password for codemane1 from 192.168.81.1 port 49447 ssh2
+2026-07-24T20:16:43.220307+00:00 ubuntu-target sshd-session[20305]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-24T20:16:43.224177+00:00 ubuntu-target systemd-logind[1384]: New session '11' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-24T20:16:43.462054+00:00 ubuntu-target sshd-session[20404]: Received disconnect from 192.168.81.1 port 49447:11: disconnected by user
+2026-07-24T20:16:43.462976+00:00 ubuntu-target sshd-session[20404]: Disconnected from user codemane1 192.168.81.1 port 49447
+2026-07-24T20:16:43.463033+00:00 ubuntu-target sshd-session[20305]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-24T20:16:43.464388+00:00 ubuntu-target systemd-logind[1384]: Session 11 logged out. Waiting for processes to exit.
+2026-07-24T20:16:43.464821+00:00 ubuntu-target systemd-logind[1384]: Removed session 11.
+2026-07-24T20:17:01.108813+00:00 ubuntu-target CRON[20409]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-24T20:17:01.111391+00:00 ubuntu-target CRON[20409]: pam_unix(cron:session): session closed for user root
+2026-07-24T20:19:15.042090+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T20:19:15.042538+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/var/ossec/bin/wazuh-logtest 
+2026-07-24T20:21:25.028339+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T20:23:32.438734+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-24T20:23:32.442278+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/3 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/cat /var/ossec/etc/rules/local_rules.xml
+2026-07-24T20:23:32.447457+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-24T20:51:24.683334+00:00 ubuntu-target sshd-session[12312]: Received disconnect from 192.168.81.1 port 49383:11: disconnected by user
+2026-07-24T20:51:24.686440+00:00 ubuntu-target sshd-session[12312]: Disconnected from user codemane1 192.168.81.1 port 49383
+2026-07-24T20:51:24.689869+00:00 ubuntu-target sshd-session[12255]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-24T20:51:24.697357+00:00 ubuntu-target sshd-session[12255]: syslogin_perform_logout: logout() returned an error
+2026-07-24T20:51:24.707720+00:00 ubuntu-target systemd-logind[1384]: Session 10 logged out. Waiting for processes to exit.
+2026-07-24T20:51:24.710766+00:00 ubuntu-target systemd-logind[1384]: Removed session 10.
+2026-07-24T20:52:23.247131+00:00 ubuntu-target systemd-logind[1384]: The system will power off now!
+2026-07-24T20:52:23.287830+00:00 ubuntu-target systemd-logind[1384]: System is powering down.
+2026-07-24T20:52:23.301017+00:00 ubuntu-target login: pam_unix(login:session): session closed for user codemane1
+2026-07-24T20:52:23.308711+00:00 ubuntu-target sshd-session[6847]: error: mm_reap: child terminated by signal 15
+2026-07-24T20:52:23.309476+00:00 ubuntu-target sshd-session[6577]: error: mm_reap: child terminated by signal 15
+2026-07-24T20:52:23.309704+00:00 ubuntu-target sshd-session[6847]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-24T20:52:23.309762+00:00 ubuntu-target sshd-session[6577]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-27T18:07:34.330515+00:00 ubuntu-target systemd-logind[1382]: New seat seat0.
+2026-07-27T18:07:34.330520+00:00 ubuntu-target systemd-logind[1382]: Watching system buttons on /dev/input/event2 (VMware VMware Virtual USB Keyboard)
+2026-07-27T18:08:00.097602+00:00 ubuntu-target login: pam_unix(login:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-27T18:08:00.107420+00:00 ubuntu-target systemd-logind[1382]: New session '1' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-27T18:08:00.138663+00:00 ubuntu-target (systemd): pam_unix(systemd-user:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-27T18:08:00.139717+00:00 ubuntu-target systemd-logind[1382]: New session '2' of user 'codemane1' with class 'manager' and type 'unspecified'.
+2026-07-27T18:08:24.843023+00:00 ubuntu-target sshd[4603]: Server listening on 0.0.0.0 port 22.
+2026-07-27T18:08:24.843356+00:00 ubuntu-target sshd[4603]: Server listening on :: port 22.
+2026-07-27T18:08:28.991336+00:00 ubuntu-target sshd-session[4605]: Accepted password for codemane1 from 192.168.81.1 port 49172 ssh2
+2026-07-27T18:08:28.992130+00:00 ubuntu-target sshd-session[4605]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-27T18:08:28.995576+00:00 ubuntu-target systemd-logind[1382]: New session '3' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-27T18:08:59.365006+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-27T18:08:59.365262+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/touch /etc/test-world-writable.conf
+2026-07-27T18:08:59.367613+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T18:08:59.374172+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-27T18:08:59.374300+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/chmod 666 /etc/test-world-writable.conf
+2026-07-27T18:08:59.376069+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T18:09:26.280716+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-27T18:09:26.282634+00:00 ubuntu-target sudo: codemane1 :  PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/tee /home/codemane1/audit.sh
+2026-07-27T18:09:26.285694+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T18:11:59.521640+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-27T18:11:59.521948+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/chown codemane1:codemane1 /home/codemane1/audit.sh
+2026-07-27T18:11:59.526435+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T18:14:48.127929+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-27T18:14:48.128204+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/chmod 644 /etc/test-world-writable.conf
+2026-07-27T18:14:48.131077+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T18:17:01.850149+00:00 ubuntu-target CRON[4927]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-07-27T18:17:01.852841+00:00 ubuntu-target CRON[4927]: pam_unix(cron:session): session closed for user root
+2026-07-27T18:20:56.599964+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-27T18:20:56.602865+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/touch /etc/test-world-writable.conf
+2026-07-27T18:20:56.606693+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T18:20:56.619541+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-27T18:20:56.619743+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/chmod 666 /etc/test-world-writable.conf
+2026-07-27T18:20:56.622505+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T18:20:56.644298+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-27T18:20:56.644394+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/chmod 644 /etc/test-world-writable.conf
+2026-07-27T18:20:56.646587+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T18:21:12.548041+00:00 ubuntu-target sshd-session[5028]: Accepted password for codemane1 from 192.168.81.1 port 49173 ssh2
+2026-07-27T18:21:12.548981+00:00 ubuntu-target sshd-session[5028]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-27T18:21:12.552132+00:00 ubuntu-target systemd-logind[1382]: New session '5' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-27T18:21:12.744094+00:00 ubuntu-target sshd-session[5084]: Received disconnect from 192.168.81.1 port 49173:11: disconnected by user
+2026-07-27T18:21:12.744238+00:00 ubuntu-target sshd-session[5084]: Disconnected from user codemane1 192.168.81.1 port 49173
+2026-07-27T18:21:12.744301+00:00 ubuntu-target sshd-session[5028]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-27T18:21:12.745876+00:00 ubuntu-target systemd-logind[1382]: Session 5 logged out. Waiting for processes to exit.
+2026-07-27T18:21:12.746286+00:00 ubuntu-target systemd-logind[1382]: Removed session 5.
+2026-07-27T18:21:19.881435+00:00 ubuntu-target sshd-session[5087]: Accepted password for codemane1 from 192.168.81.1 port 49174 ssh2
+2026-07-27T18:21:19.882165+00:00 ubuntu-target sshd-session[5087]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-27T18:21:19.885108+00:00 ubuntu-target systemd-logind[1382]: New session '6' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-27T18:21:19.931301+00:00 ubuntu-target sshd-session[5135]: Received disconnect from 192.168.81.1 port 49174:11: disconnected by user
+2026-07-27T18:21:19.931397+00:00 ubuntu-target sshd-session[5135]: Disconnected from user codemane1 192.168.81.1 port 49174
+2026-07-27T18:21:19.931577+00:00 ubuntu-target sshd-session[5087]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-27T18:21:19.932970+00:00 ubuntu-target systemd-logind[1382]: Session 6 logged out. Waiting for processes to exit.
+2026-07-27T18:21:19.933670+00:00 ubuntu-target systemd-logind[1382]: Removed session 6.
+2026-07-27T18:21:30.326703+00:00 ubuntu-target sshd-session[5138]: Accepted password for codemane1 from 192.168.81.1 port 49175 ssh2
+2026-07-27T18:21:30.327755+00:00 ubuntu-target sshd-session[5138]: pam_unix(sshd:session): session opened for user codemane1(uid=1000) by codemane1(uid=0)
+2026-07-27T18:21:30.331412+00:00 ubuntu-target systemd-logind[1382]: New session '7' of user 'codemane1' with class 'user' and type 'tty'.
+2026-07-27T18:21:30.386864+00:00 ubuntu-target sshd-session[5186]: Received disconnect from 192.168.81.1 port 49175:11: disconnected by user
+2026-07-27T18:21:30.387013+00:00 ubuntu-target sshd-session[5186]: Disconnected from user codemane1 192.168.81.1 port 49175
+2026-07-27T18:21:30.387095+00:00 ubuntu-target sshd-session[5138]: pam_unix(sshd:session): session closed for user codemane1
+2026-07-27T18:21:30.389341+00:00 ubuntu-target systemd-logind[1382]: Session 7 logged out. Waiting for processes to exit.
+2026-07-27T18:21:30.389998+00:00 ubuntu-target systemd-logind[1382]: Removed session 7.
+2026-07-27T18:41:10.488084+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-27T18:41:10.490043+00:00 ubuntu-target sudo: codemane1 :  PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/tee /home/codemane1/log_ioc_parser.py
+2026-07-27T18:41:10.490137+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T18:41:34.535021+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-27T18:41:34.535478+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/chown codemane1:codemane1 /home/codemane1/log_ioc_parser.py
+2026-07-27T18:41:34.538402+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T18:43:05.672005+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-27T18:43:05.673934+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/python3 /home/codemane1/log_ioc_parser.py /var/log/auth.log
+2026-07-27T18:43:05.696275+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T18:44:34.955672+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-27T18:44:34.956063+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/grep -c Failed password.*from 192.168.81.128 /var/log/auth.log
+2026-07-27T18:44:34.959767+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T18:46:40.123799+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-27T18:46:40.124245+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/python3 /home/codemane1/log_ioc_parser.py /var/log/auth.log
+2026-07-27T18:46:40.155250+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T18:46:40.160822+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-27T18:46:40.160982+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/grep -c Failed password.*from 192.168.81.128 /var/log/auth.log
+2026-07-27T18:46:40.162864+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T18:48:27.355240+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-27T18:48:27.357686+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/grep Failed password.*from 192.168.81.128 /var/log/auth.log
+2026-07-27T18:48:27.360115+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T18:49:28.049320+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-27T18:49:28.049730+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/ss -tn
+2026-07-27T18:49:28.075821+00:00 ubuntu-target sudo: pam_unix(sudo:session): session closed for user root
+2026-07-27T18:54:19.749904+00:00 ubuntu-target sudo: pam_unix(sudo:session): session opened for user root(uid=0) by codemane1(uid=1000)
+2026-07-27T18:54:19.752591+00:00 ubuntu-target sudo: codemane1 : TTY=/dev/pts/0 ; PWD=/home/codemane1 ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /tmp/auth_snapshot.log
