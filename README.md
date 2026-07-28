@@ -104,12 +104,54 @@ The parser's logic was right on the first run. What actually needed debugging wa
 
 ## Files in this repo
 
-- `log_ioc_parser.py` — the parser script
+- `log_ioc_parser.py` — the original parser script (IP extraction only)
 - `log_ioc_output.txt` — validated output run against the frozen snapshot
 - `auth_snapshot.log` — the frozen log snapshot used for the final validated run
+- `log_ioc_parser_v2.py` — upgraded parser with username capture and structured JSON output (see addendum below)
+- `log_ioc_output_table.txt` — v2's human-readable table output
+- `log_ioc_output.json` — v2's structured JSON output
+- `screenshots/` — see below
+
+## Screenshots
+
+![JSON output validity confirmation](screenshots/json-validation.png)
 
 ## What I'd do differently in production
 
 - Never validate a script's output against a live, actively-written log using a command that could itself write matching content back into that log — snapshot first, always.
-- Extend the IOC extraction beyond source IPs to also capture targeted usernames, which would help distinguish a scattershot brute-force attempt from a more targeted credential-stuffing attempt against a specific known account.
-- Output results as structured JSON or CSV rather than a printed table, so the script's output could feed directly into another tool (a SIEM ingestion pipeline, a blocklist generator) rather than only being human-readable.
+
+---
+
+## Addendum: Structured Output + Targeted-Username Capture
+
+### What this adds
+
+The original script only extracted source IPs. This upgrade captures the **targeted username** alongside each IP, and adds an optional **structured JSON output mode** — the difference between a script whose output is only readable by a human, and one whose output could feed directly into another tool.
+
+### The regex change
+
+```python
+IP_USER_PATTERN = re.compile(r'Failed password for (\S+) from (\d+\.\d+\.\d+\.\d+)')
+```
+`\S+` — one or more non-whitespace characters — captures the username. Unlike an IP address, a username has no fixed, predictable character pattern to match against directly, so "anything that isn't whitespace" is the right level of generality here.
+
+### Proper CLI argument handling with `argparse`
+
+```python
+parser = argparse.ArgumentParser(description="Extract IOCs from an auth.log file")
+parser.add_argument("logfile", help="Path to the auth.log file")
+parser.add_argument("--json", action="store_true", help="Output as JSON instead of a table")
+args = parser.parse_args()
+```
+Replaces manually checking `sys.argv`'s length from the original script — `argparse` handles `--help` output and invalid-argument errors automatically, and `action="store_true"` makes `--json` a simple on/off flag with no value of its own required.
+
+### Validated as genuinely well-formed, not just visually plausible
+
+```bash
+python3 log_ioc_parser_v2.py auth_snapshot.log --json | python3 -m json.tool > /dev/null && echo "VALID JSON"
+```
+`json.tool` errors loudly on malformed JSON rather than silently accepting it — confirmed `VALID JSON` before treating the output as a real, usable artifact.
+
+### Key finding
+
+Both table and JSON modes were tested against the same frozen snapshot from the original project (rebuilt fresh, since `/tmp` doesn't persist across reboots — a small but real reminder that anything living outside the actual repo needs to be treated as disposable). The two output modes' summary counts match each other exactly, confirming the new JSON path isn't a separate, potentially-diverging code path — it's the same underlying data, just serialized differently depending on whether a human or another program is the intended consumer.
