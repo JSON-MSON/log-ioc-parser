@@ -155,3 +155,38 @@ python3 log_ioc_parser_v2.py auth_snapshot.log --json | python3 -m json.tool > /
 ### Key finding
 
 Both table and JSON modes were tested against the same frozen snapshot from the original project (rebuilt fresh, since `/tmp` doesn't persist across reboots — a small but real reminder that anything living outside the actual repo needs to be treated as disposable). The two output modes' summary counts match each other exactly, confirming the new JSON path isn't a separate, potentially-diverging code path — it's the same underlying data, just serialized differently depending on whether a human or another program is the intended consumer.
+
+---
+
+## Addendum: Phishing Email Header Analysis
+
+### What this adds
+
+A foundational SOC Level 1 skill with no infrastructure dependency of its own — reading raw email authentication headers to assess whether a message is genuinely from who it claims to be. Same underlying discipline as this repo's log parsing: extracting a reliable signal from unstructured raw text rather than trusting a client's summary of it.
+
+### The header
+
+A real email, own inbox, redacted where personally identifying:
+
+```
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass header.i=@action1.com header.s=action1 header.b=kR3Zmv3F; spf=pass (google.com: domain of support=action1.com__...@...bnc.salesforce.com designates 35.85.98.200 as permitted sender) smtp.mailfrom="support=action1.com__...@...bnc.salesforce.com"; dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=action1.com
+
+Received: from smtp-....core2.sfdc-lywfpd.mta.salesforce.com (...[35.85.98.200]) by mx.google.com ...
+Received-SPF: pass (google.com: ... designates 35.85.98.200 as permitted sender) client-ip=35.85.98.200;
+DKIM-Signature: v=1; a=rsa-sha256; d=action1.com; s=action1; ...
+Received: from [127.0.0.1] (helo=eaas-10.eaas.emailinfra.svc.cluster.local) by mx1.core2.sfdc-lywfpd.mta.salesforce.com ...
+
+From: Action1 Support <support@action1.com>
+```
+
+### Analysis
+
+All three checks pass — but the more interesting finding is *why*, not just that they do. The SPF envelope sender (`Return-Path`/`smtp.mailfrom`) is a long, machine-generated `bnc.salesforce.com` address, not `action1.com` — because this was sent through Salesforce's transactional infrastructure on Action1's behalf (confirmed throughout via the `X-SFDC-*` headers), a standard pattern for companies outsourcing outbound mail to an ESP rather than running their own servers.
+
+That mismatch looks suspicious in isolation, but DMARC doesn't require SPF's domain to align — it accepts alignment through **either** SPF or DKIM. The `DKIM-Signature` shows `d=action1.com`, signed directly by Action1's own domain and matching the visible `From:` exactly. That DKIM alignment is what carries the `dmarc=pass` despite SPF's domain mismatch — a spoofed message impersonating `action1.com` wouldn't have a valid DKIM signature from `action1.com` to fall back on, and would fail both, which Action1's own `p=REJECT` policy is specifically written to catch.
+
+Tracing `Received:` bottom-up confirms a consistent path: Salesforce's internal mail system → Salesforce's outbound MTA → Google, arriving from `35.85.98.200` — the exact IP SPF authorized. No discrepancy between claimed and actual origin at any hop.
+
+### Key finding
+
+A clean pass is only meaningful once you can explain *why* it passed, not just read the verdict. The SPF/DKIM domain divergence here is a textbook third-party-ESP pattern, correctly resolved by DMARC's either/or alignment logic rather than being a red flag — the same reasoning, applied to a message that actually failed these checks, is what would justify quarantine or rejection instead.
